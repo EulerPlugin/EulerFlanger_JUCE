@@ -6,3 +6,27 @@
 //
 
 
+#include <EulerFlanger/FlangerDSP.h>
+
+
+FlangerDSP::FlangerDSP()
+{
+
+}
+
+FlangerDSP::~FlangerDSP()
+{
+
+}
+
+void FlangerDSP::prepare(const float inSmapleRate, const float inmaxDelayms) noexcept
+{
+    sampleRate = inSmapleRate;
+    maxDelaySample = (inmaxDelayms / 1000.0f) * sampleRate;
+    
+}
+
+float FlangerDSP::process(const float inSample) noexcept
+{
+    
+}

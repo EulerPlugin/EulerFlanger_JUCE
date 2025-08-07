@@ -32,9 +32,21 @@ juce_add_plugin(
 
 
 # Sets the source files of the plugin project.
-set(SOURCE_FILES source/PluginEditor.cpp source/PluginProcessor.cpp source/FlangerDSP.cpp)
+set(SOURCE_FILES
+    source/PluginEditor.cpp
+    source/PluginProcessor.cpp
+    source/FlangerDSP.cpp
+    source/LinearInterpolation.cpp
+    source/CircularBuffer.cpp)
+    
 # Optional; includes header files in the project file tree in Visual Studio
-set(HEADER_FILES ${INCLUDE_DIR}/PluginEditor.h ${INCLUDE_DIR}/PluginProcessor.h ${INCLUDE_DIR}/FlangerDSP.h)
+set(HEADER_FILES
+    ${INCLUDE_DIR}/PluginEditor.h
+    ${INCLUDE_DIR}/PluginProcessor.h
+    ${INCLUDE_DIR}/FlangerDSP.h
+    ${INCLUDE_DIR}/LinearInterpolation.h
+    ${INCLUDE_DIR}/CircularBuffer.h)
+    
 target_sources(${PROJECT_NAME} PRIVATE ${SOURCE_FILES} ${HEADER_FILES})
 
 # Sets the include directories of the plugin project.

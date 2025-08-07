@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		52A5F02E5BA4B191407B5C8C /* googletest-populate */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = BF86E4FA42644F9DB0E6B541 /* Build configuration list for PBXAggregateTarget "googletest-populate" */;
+			buildConfigurationList = FD426FE87C1F4C6E9AD4229B /* Build configuration list for PBXAggregateTarget "googletest-populate" */;
 			buildPhases = (
 				FFE08B9070DBDD0DACBE5E77 /* Generate googletest-populate-prefix/src/googletest-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/googletest-populate-mkdir */,
 				C942B5C1808BD70059A570F7 /* Generate googletest-populate-prefix/src/googletest-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/googletest-populate-download */,
@@ -23,14 +23,14 @@
 				712F51D9969204509BCA4F0B /* Generate CMakeFiles/googletest-populate */,
 			);
 			dependencies = (
-				C6A77ECBC9A2498EA5E1F095 /* PBXTargetDependency */,
+				2A002412AA8A47FDBB4A85CB /* PBXTargetDependency */,
 			);
 			name = "googletest-populate";
 			productName = "googletest-populate";
 		};
 		64C3E5562DCBD614B7CEDCFE /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 43F9C37506384CC18FA22823 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = C05136AB5B1A4BD7AA40CA16 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				7DDD5855DEAF100B25A8146C /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -41,13 +41,13 @@
 		};
 		6D8A1B6C831653372E64B1D2 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = DB374E8CE4D945E7A5CC1CE7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 538ED979BD1147FA98F69AFD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				03B1C3B74F404A7734C65A35 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				54D5A007D6DF437697B0AF28 /* PBXTargetDependency */,
-				752A17D48CF44E449EA00DC8 /* PBXTargetDependency */,
+				B8EE43F50B264D759272DF66 /* PBXTargetDependency */,
+				0B9599E70A0343F4A511F807 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -55,7 +55,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		F2ED45EDD0534F569318D913 /* Debug */ = {
+		F5D018AE45144452B3FE88BA /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -65,23 +65,23 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		3B41F82FB33B41B2BB73217C /* PBXContainerItemProxy */ = {
+		71136E5E052342D2A007FC34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 924F920F76514703B22C7123 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 64C3E5562DCBD614B7CEDCFE;
-			remoteInfo = ZERO_CHECK;
-		};
-		849A6B73F70546F48A9F536C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 924F920F76514703B22C7123 /* Project object */;
+			containerPortal = 2AB7F2039248415BA8899E67 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 52A5F02E5BA4B191407B5C8C;
 			remoteInfo = "googletest-populate";
 		};
-		999E6FC936F446819B56FE1B /* PBXContainerItemProxy */ = {
+		810576E905A342C6B7BDA0BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 924F920F76514703B22C7123 /* Project object */;
+			containerPortal = 2AB7F2039248415BA8899E67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64C3E5562DCBD614B7CEDCFE;
+			remoteInfo = ZERO_CHECK;
+		};
+		E44D03644E19426EB659D652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB7F2039248415BA8899E67 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 64C3E5562DCBD614B7CEDCFE;
 			remoteInfo = ZERO_CHECK;
@@ -89,109 +89,109 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A0ADCF7D44949E4BC44DCAC /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/googletest-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		B6D427CD492047D698649C3B /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/googletest-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3812A270CB7D455EA950F7DC /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/googletest-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ADCE811B1F76438BA85D63E6 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/googletest-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		02CC7C3A85C043F8A223E9BE /* googletest-populate */ = {
-			isa = PBXGroup;
-			children = (
-				D0D27DD009B14FCE8179670A /* CMake Rules */,
-				1A0ADCF7D44949E4BC44DCAC /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/googletest-subbuild/CMakeLists.txt */,
-			);
-			name = "googletest-populate";
-			sourceTree = "<group>";
-		};
-		1602EE45C7F8415191979435 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				E6D17342BD624E3DB5F3074D /* CMake Rules */,
-				B6D427CD492047D698649C3B /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/googletest-subbuild/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		36C55D13518B43BBB01C04D6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		AC1905C2D6104D949311F2D0 /* googletest-populate */ = {
-			isa = PBXGroup;
-			children = (
-				02CC7C3A85C043F8A223E9BE /* googletest-populate */,
-			);
-			name = "googletest-populate";
-			sourceTree = "<group>";
-		};
-		D0D27DD009B14FCE8179670A /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		E6D17342BD624E3DB5F3074D /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		ED64C4C4A66147489EA9D3DF /* Frameworks */ = {
+		053A7172EBE94D5095A4B414 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EDA4C0F1DAD946169BD46D64 /* Products */ = {
+		08814BED3B764699A3825DAA /* googletest-populate */ = {
+			isa = PBXGroup;
+			children = (
+				DF47BD2D58AF4B30B23871A3 /* CMake Rules */,
+				3812A270CB7D455EA950F7DC /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/googletest-subbuild/CMakeLists.txt */,
+			);
+			name = "googletest-populate";
+			sourceTree = "<group>";
+		};
+		5AC8BC0FC5924B80B7C8E26A = {
+			isa = PBXGroup;
+			children = (
+				D0CD616034894759A756A3DF /* ExternalProjectTargets */,
+				D161D60305A249359DE69E66 /* ALL_BUILD */,
+				C056485805B34D2E8F41BBCC /* Products */,
+				053A7172EBE94D5095A4B414 /* Frameworks */,
+				BB12FE94DD7D44399BBB43EB /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		BB12FE94DD7D44399BBB43EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BD9D16B46D9F465AA893CE2F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C056485805B34D2E8F41BBCC /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F546F4E6374D403AB24A8729 /* ExternalProjectTargets */ = {
+		D0CD616034894759A756A3DF /* ExternalProjectTargets */ = {
 			isa = PBXGroup;
 			children = (
-				AC1905C2D6104D949311F2D0 /* googletest-populate */,
+				DEB0D5A83B7E4B838023F7B0 /* googletest-populate */,
 			);
 			name = ExternalProjectTargets;
 			sourceTree = "<group>";
 		};
-		FE92ED898DC440CDB6F30D9A = {
+		D161D60305A249359DE69E66 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				F546F4E6374D403AB24A8729 /* ExternalProjectTargets */,
-				1602EE45C7F8415191979435 /* ALL_BUILD */,
-				EDA4C0F1DAD946169BD46D64 /* Products */,
-				ED64C4C4A66147489EA9D3DF /* Frameworks */,
-				36C55D13518B43BBB01C04D6 /* Resources */,
+				BD9D16B46D9F465AA893CE2F /* CMake Rules */,
+				ADCE811B1F76438BA85D63E6 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/googletest-subbuild/CMakeLists.txt */,
 			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DEB0D5A83B7E4B838023F7B0 /* googletest-populate */ = {
+			isa = PBXGroup;
+			children = (
+				08814BED3B764699A3825DAA /* googletest-populate */,
+			);
+			name = "googletest-populate";
+			sourceTree = "<group>";
+		};
+		DF47BD2D58AF4B30B23871A3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		924F920F76514703B22C7123 /* Project object */ = {
+		2AB7F2039248415BA8899E67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1420;
 			};
-			buildConfigurationList = 42CA6134B6A544B1BC5D271D /* Build configuration list for PBXProject "googletest-populate" */;
+			buildConfigurationList = BC0520F75A7D436F90CE6B62 /* Build configuration list for PBXProject "googletest-populate" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				F2ED45EDD0534F569318D913 /* Debug */,
+				F5D018AE45144452B3FE88BA /* Debug */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = FE92ED898DC440CDB6F30D9A;
+			mainGroup = 5AC8BC0FC5924B80B7C8E26A;
 			projectDirPath = .;
 			projectRoot = "";
 			targets = (
@@ -505,56 +505,25 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		54D5A007D6DF437697B0AF28 /* PBXTargetDependency */ = {
+		0B9599E70A0343F4A511F807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C3E5562DCBD614B7CEDCFE /* ZERO_CHECK */;
+			targetProxy = 810576E905A342C6B7BDA0BA /* PBXContainerItemProxy */;
+		};
+		2A002412AA8A47FDBB4A85CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64C3E5562DCBD614B7CEDCFE /* ZERO_CHECK */;
+			targetProxy = E44D03644E19426EB659D652 /* PBXContainerItemProxy */;
+		};
+		B8EE43F50B264D759272DF66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 52A5F02E5BA4B191407B5C8C /* googletest-populate */;
-			targetProxy = 849A6B73F70546F48A9F536C /* PBXContainerItemProxy */;
-		};
-		752A17D48CF44E449EA00DC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 64C3E5562DCBD614B7CEDCFE /* ZERO_CHECK */;
-			targetProxy = 3B41F82FB33B41B2BB73217C /* PBXContainerItemProxy */;
-		};
-		C6A77ECBC9A2498EA5E1F095 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 64C3E5562DCBD614B7CEDCFE /* ZERO_CHECK */;
-			targetProxy = 999E6FC936F446819B56FE1B /* PBXContainerItemProxy */;
+			targetProxy = 71136E5E052342D2A007FC34 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		37777DD4983248E4BD43831C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SYMROOT = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/googletest-subbuild/build";
-			};
-			name = Debug;
-		};
-		435C9832110D447FBEF231A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = "googletest-populate";
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		82E6F96E152747E4AE9F6F3A /* Debug */ = {
+		03B37991FF7F4FF6B39DF8AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -576,7 +545,38 @@ fi
 			};
 			name = Debug;
 		};
-		A68C4C1684E34BEFAD9A6D6B /* Debug */ = {
+		4AB6B746199140E78B21211B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "googletest-populate";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DF7285125E8541CBA4B5CD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/googletest-subbuild/build";
+			};
+			name = Debug;
+		};
+		ED612D959F4A460A9C235CDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -601,39 +601,39 @@ fi
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42CA6134B6A544B1BC5D271D /* Build configuration list for PBXProject "googletest-populate" */ = {
+		538ED979BD1147FA98F69AFD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37777DD4983248E4BD43831C /* Debug */,
+				03B37991FF7F4FF6B39DF8AC /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		43F9C37506384CC18FA22823 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		BC0520F75A7D436F90CE6B62 /* Build configuration list for PBXProject "googletest-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A68C4C1684E34BEFAD9A6D6B /* Debug */,
+				DF7285125E8541CBA4B5CD0E /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BF86E4FA42644F9DB0E6B541 /* Build configuration list for PBXAggregateTarget "googletest-populate" */ = {
+		C05136AB5B1A4BD7AA40CA16 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				435C9832110D447FBEF231A8 /* Debug */,
+				ED612D959F4A460A9C235CDA /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		DB374E8CE4D945E7A5CC1CE7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		FD426FE87C1F4C6E9AD4229B /* Build configuration list for PBXAggregateTarget "googletest-populate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82E6F96E152747E4AE9F6F3A /* Debug */,
+				4AB6B746199140E78B21211B /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 924F920F76514703B22C7123 /* Project object */;
+	rootObject = 2AB7F2039248415BA8899E67 /* Project object */;
 }
