@@ -1,0 +1,14 @@
+# Target labels
+ juce-populate
+# Source files and their labels
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-subbuild/CMakeFiles/juce-populate
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-subbuild/CMakeFiles/juce-populate.rule
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-subbuild/CMakeFiles/CMakeFiles/juce-populate-complete.rule
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/CMakeFiles/juce-populate-build.rule
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/CMakeFiles/juce-populate-configure.rule
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/CMakeFiles/juce-populate-download.rule
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/CMakeFiles/juce-populate-install.rule
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/CMakeFiles/juce-populate-mkdir.rule
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/CMakeFiles/juce-populate-patch.rule
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/CMakeFiles/juce-populate-test.rule
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-subbuild/juce-populate-prefix/src/juce-populate-stamp/CMakeFiles/juce-populate-update.rule

@@ -1,0 +1,7 @@
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-build/tools/CMakeFiles/install.dir
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-build/tools/CMakeFiles/ALL_BUILD.dir
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-build/tools/CMakeFiles/ZERO_CHECK.dir
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-build/tools/modules/CMakeFiles/install.dir
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-build/tools/extras/Build/CMakeFiles/install.dir
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-build/tools/extras/Build/juceaide/CMakeFiles/juceaide.dir
+/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/_deps/juce-build/tools/extras/Build/juceaide/CMakeFiles/install.dir
