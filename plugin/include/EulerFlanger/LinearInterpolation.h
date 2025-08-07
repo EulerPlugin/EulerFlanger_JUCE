@@ -7,6 +7,7 @@
 
 #pragma once
 #include <stdio.h>
+#include <juce_audio_processors/juce_audio_processors.h>
 
 class LinearInterpolation
 {
@@ -14,9 +15,5 @@ class LinearInterpolation
         LinearInterpolation();
         ~LinearInterpolation();
         
-        void prepare(const int inIndex) noexcept;
-        
-    private:
-        
-        
+        float process(const float* buffer, const float inIndex) noexcept;
 };

@@ -6,5 +6,34 @@
 //
 
 #include <EulerFlanger/LinearInterpolation.h>
+#include <cmath>
 
 
+LinearInterpolation::LinearInterpolation()
+{
+
+}
+
+LinearInterpolation::~LinearInterpolation()
+{
+
+}
+
+float LinearInterpolation::process(const float* buffer, const float inIndex) noexcept
+{
+    if (inIndex < 0 )
+    {
+        printf("Error : Index is Wrong!");
+        return 0;
+    }
+    
+    const int low = static_cast<int>(inIndex);
+    const int high = (low + 1) ;
+    
+    const float a = inIndex - low;
+    const float y0 = buffer[low];
+    const float y1 = buffer[high];
+    
+    return (1.0f - a) * y0 + a * y1;
+}
+        

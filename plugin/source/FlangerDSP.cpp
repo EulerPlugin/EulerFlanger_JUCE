@@ -28,5 +28,5 @@ void FlangerDSP::prepare(const float inSmapleRate, const float inmaxDelayms) noe
 
 float FlangerDSP::process(const float inSample) noexcept
 {
-    
+    return inSample;
 }
