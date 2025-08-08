@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		5319EA2B6E251A89C1DA351A /* RUN_TESTS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 518976F8D44348DBB2A2FE90 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildConfigurationList = 7823713CF18949738D76A475 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
 			buildPhases = (
 				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
 			);
@@ -20,7 +20,7 @@
 		};
 		5814B75A0AEBF12D8B1C3078 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 71F1D598ED89476CA386BDB1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 11BD21DE24924D9492674AD9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				4ADC1F24C275842710BFF7B6 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -31,28 +31,28 @@
 		};
 		9895322AE080059C8C514497 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F98632DD1F4041388E26F7E0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 41D329F6B6B042D98227A7A3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				5FEB7A8FFE23B6CFE4AB7852 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				7089D9EC46FC4A6B94CDC7F3 /* PBXTargetDependency */,
-				DAC353F1411C4E84A9651FDF /* PBXTargetDependency */,
-				D43290D784C3405F8C791A0A /* PBXTargetDependency */,
-				318D65C8B3E64E17A5440A00 /* PBXTargetDependency */,
-				E3A5B7583F214A428A536A26 /* PBXTargetDependency */,
+				85B9D3BA116549999420578E /* PBXTargetDependency */,
+				6674D6B5615748BFA3B689C3 /* PBXTargetDependency */,
+				8DC4CAAEB2D942DBAD447BDB /* PBXTargetDependency */,
+				C4EBAFF793684D538D62A8D7 /* PBXTargetDependency */,
+				421EF29F5CAC43FFB5200D56 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		D91E4E55E360F1E69B6FF02A /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C58E570B3404420E9203C9AE /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 368A8CB1F3E94D498AC4AEBA /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				C483A0B0C20D4E2091C5696E /* PBXTargetDependency */,
+				B878D04564B04E82A8A5C4DB /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
@@ -60,159 +60,159 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		32DF9A0B582248E0AF0C9311 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = AA3E2F9F96A148B7B58BBFBE /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest_main.cc */; };
-		4E505A92B37541DD823961AF /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BB7CF057714545D5BE4696F7 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */; };
-		662D3737B81D49BE87FDDBC6 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock_main.cc */ = {isa = PBXBuildFile; fileRef = 98070DDD9A534B6A8C3E5401 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock_main.cc */; };
-		87146C90C0EB4E04BE964E1A /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock-all.cc */ = {isa = PBXBuildFile; fileRef = 61B5512ABF7346A5B9FE872E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock-all.cc */; };
-		87824FCD2B2D48808E87AAEE /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5B5804E7E5FA4E6283DB1E75 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */; };
-		87DA62ECC8284B1BBB57D9B5 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = ECAEA0E0E57B4F568FE994DA /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */; };
-		A5CF96DEE692417996EF856C /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7B2F636068A349C4A367EAA7 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */; };
-		F5E808164AAF4B12B9BE8F17 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = DCEA0485A9524EED88EC6667 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest-all.cc */; };
+		0CF1BC121D0E4F6E92ED4DA3 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock_main.cc */ = {isa = PBXBuildFile; fileRef = 1E657BF641434D8FB459F68F /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock_main.cc */; };
+		12D15C14E045492DA9D4B229 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6D2A8A8039F443BFA8502D4C /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */; };
+		51A0517738EA43FBA91228A4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest-all.cc */ = {isa = PBXBuildFile; fileRef = 83526D0C807C4EBB861C47CF /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest-all.cc */; };
+		5610FF4DD93041ED96A031B9 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E04A63067A164C879A9B753A /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */; };
+		703F424CFFA34392B8F62724 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D9BC5FC89EB24519B662ACEB /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */; };
+		96717106E7374DF8AD620685 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock-all.cc */ = {isa = PBXBuildFile; fileRef = F8EE7580193A491580CC50E7 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock-all.cc */; };
+		B9B79659A32D4BFAA64C7A7E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest_main.cc */ = {isa = PBXBuildFile; fileRef = 47045C2F6D4D46C2B987FA7C /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest_main.cc */; };
+		D0C61F5389FD4F6D85FE7F5C /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C3906307D49B4F75A088AD98 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		407A2DF95352423CBB6C5A9E /* RelWithDebInfo */ = {
+		3060E7BFBB4C4726A3256542 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		7A82A3DB4ECD438D8F552067 /* MinSizeRel */ = {
+		6DFB98400CEC48CB8B518D14 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		7E53A55DB20E4B84A30A4ACA /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		C11BF5C6963844BBA67EDC76 /* Debug */ = {
+		FB46AF1967744ED5A0009E67 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		FBB61BE86E274A5DB2734E9D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		1049346DCF2B400C8F258F85 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE2E2F19E756FD66DA65BE8A;
-			remoteInfo = gtest;
-		};
-		500CB6017F8D45A796E14CAA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F4666664AB91A72E9BF43AB;
-			remoteInfo = gmock;
-		};
-		5D3B5869798D4DFE970E0E60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9895322AE080059C8C514497;
-			remoteInfo = ALL_BUILD;
-		};
-		5E36DC0689EA4551B462E568 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE2E2F19E756FD66DA65BE8A;
-			remoteInfo = gtest;
-		};
-		72995B12BDC04A27AC1FDAA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92B6A9B76EF5CF562A7C88F8;
-			remoteInfo = gtest_main;
-		};
-		8B65B1B0F73B450C904A9F61 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F4666664AB91A72E9BF43AB;
-			remoteInfo = gmock;
-		};
-		B29F46C5C3CF42C9B16847BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FE2E2F19E756FD66DA65BE8A;
-			remoteInfo = gtest;
-		};
-		D7499A35B8CD43068CBDF608 /* PBXContainerItemProxy */ = {
+		11672AFFE83E4CBC84C5C20E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5814B75A0AEBF12D8B1C3078;
 			remoteInfo = ZERO_CHECK;
 		};
-		E8FC9E93350B46819E50E38F /* PBXContainerItemProxy */ = {
+		22DF1865E5BE4BD18BCD28FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FE2E2F19E756FD66DA65BE8A;
 			remoteInfo = gtest;
 		};
-		FE55EB6DF8D24215AEA416E8 /* PBXContainerItemProxy */ = {
+		3D1FBDF36409401F9A0ABAFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2E2F19E756FD66DA65BE8A;
+			remoteInfo = gtest;
+		};
+		4006DAE6D1194EA6B0081F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9895322AE080059C8C514497;
+			remoteInfo = ALL_BUILD;
+		};
+		47C561752C0642188C11F698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F4666664AB91A72E9BF43AB;
+			remoteInfo = gmock;
+		};
+		711B08CF9B2C4FD09AD2F79E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8860C13D0FB24D4B7011E870;
 			remoteInfo = gmock_main;
 		};
+		8DB73DE783C241889FC3303A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2E2F19E756FD66DA65BE8A;
+			remoteInfo = gtest;
+		};
+		C055DE7684834D1E8417E6CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2E2F19E756FD66DA65BE8A;
+			remoteInfo = gtest;
+		};
+		EC34E1F15F6048398A2653A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F4666664AB91A72E9BF43AB;
+			remoteInfo = gmock;
+		};
+		FC48E0933DFC44429F98BDF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B80DDC8D6674B97B37B725F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B6A9B76EF5CF562A7C88F8;
+			remoteInfo = gtest_main;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10F4D2FEA31E43D394ED3D4B /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		59C5D205D6484ABA90C6C7F7 /* gmock */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgmock.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B5804E7E5FA4E6283DB1E75 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = googlemock/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		61B5512ABF7346A5B9FE872E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gmock-all.cc"; path = "googlemock/src/gmock-all.cc"; sourceTree = SOURCE_ROOT; };
-		7B2F636068A349C4A367EAA7 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = googletest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		8CF790F9A6414DF18D3C4CB5 /* gtest_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_main.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		98070DDD9A534B6A8C3E5401 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gmock_main.cc; path = googlemock/src/gmock_main.cc; sourceTree = SOURCE_ROOT; };
-		AA3E2F9F96A148B7B58BBFBE /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gtest_main.cc; path = googletest/src/gtest_main.cc; sourceTree = SOURCE_ROOT; };
-		BB7CF057714545D5BE4696F7 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = googletest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		CB94EBA257DE430C8369BF1B /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8E73561952F498FA8E2A363 /* gmock_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgmock_main.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCEA0485A9524EED88EC6667 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "googletest/src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
-		ECAEA0E0E57B4F568FE994DA /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = googlemock/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1E657BF641434D8FB459F68F /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gmock_main.cc; path = googlemock/src/gmock_main.cc; sourceTree = SOURCE_ROOT; };
+		30AE6D6F625D4B8B9F1BC344 /* gmock */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgmock.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C127DA19E941159B100EF4 /* gtest_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest_main.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47045C2F6D4D46C2B987FA7C /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest_main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gtest_main.cc; path = googletest/src/gtest_main.cc; sourceTree = SOURCE_ROOT; };
+		6D2A8A8039F443BFA8502D4C /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = googletest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		80F0CCAB09CB4C11B6F9F4B6 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		83526D0C807C4EBB861C47CF /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gtest-all.cc"; path = "googletest/src/gtest-all.cc"; sourceTree = SOURCE_ROOT; };
+		988A20B1531343E693889870 /* gmock_main */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgmock_main.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3906307D49B4F75A088AD98 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = googlemock/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D9BC5FC89EB24519B662ACEB /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = googlemock/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E04A63067A164C879A9B753A /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = googletest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F6B18A6467E0456A823EBC7C /* gtest */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libgtest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EE7580193A491580CC50E7 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock-all.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "gmock-all.cc"; path = "googlemock/src/gmock-all.cc"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		163D7643B6154040A3717639 /* Frameworks */ = {
+		3A3FD1E776AA4C8BBF62C144 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23BFAE29EA4640EBB3261A42 /* Frameworks */ = {
+		616B7233E72F4C25B596C252 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A4E7F01114443B892A9A5A2 /* Frameworks */ = {
+		74CB4B2A571046B692FFBA9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4AAC48F79B2400C9153D174 /* Frameworks */ = {
+		A2EFBB61EC1843EF8EF54284 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,127 +222,127 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10CD9FDFA04642799340D605 /* gtest */ = {
+		00969E34739A444D9F52B8DE = {
 			isa = PBXGroup;
 			children = (
-				5C321B3A5CC4457C8991DC7F /* Source Files */,
-				7B2F636068A349C4A367EAA7 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */,
+				A613ACEE6F234594A18E4BBF /* ALL_BUILD */,
+				176EFCFF35F84D7AA07DACDB /* gmock */,
+				EF7A10E062304C7FBBF67584 /* gmock_main */,
+				3F3D0DB34F3C463ABD4BFA78 /* gtest */,
+				2629E13ACED94B75AEF32122 /* gtest_main */,
+				CAB1C9032F184AC59C6ECC6E /* Products */,
+				C199C9FCAB4147D18D3CF58F /* Frameworks */,
+				6AEF1162CE224E40A0B39CFB /* Resources */,
 			);
-			name = gtest;
 			sourceTree = "<group>";
 		};
-		4B320FE7276545DCBF91DFF9 /* Source Files */ = {
+		176EFCFF35F84D7AA07DACDB /* gmock */ = {
 			isa = PBXGroup;
 			children = (
-				98070DDD9A534B6A8C3E5401 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock_main.cc */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		52BBC2A8DC6F4D0496E569F9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				59C5D205D6484ABA90C6C7F7 /* gmock */,
-				D8E73561952F498FA8E2A363 /* gmock_main */,
-				CB94EBA257DE430C8369BF1B /* gtest */,
-				8CF790F9A6414DF18D3C4CB5 /* gtest_main */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		53413CFD34C94B6DB8495E5D /* gmock */ = {
-			isa = PBXGroup;
-			children = (
-				8095C3625855458DA01599A1 /* Source Files */,
-				ECAEA0E0E57B4F568FE994DA /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */,
+				2263F75C3E0543EB8A5380A6 /* Source Files */,
+				D9BC5FC89EB24519B662ACEB /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */,
 			);
 			name = gmock;
 			sourceTree = "<group>";
 		};
-		5C321B3A5CC4457C8991DC7F /* Source Files */ = {
+		19B3BEF126DB4DA9B1588BC1 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				DCEA0485A9524EED88EC6667 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest-all.cc */,
+				1E657BF641434D8FB459F68F /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock_main.cc */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		68E67A8237E940DE883FFA74 /* ALL_BUILD */ = {
+		2263F75C3E0543EB8A5380A6 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				D9C9C6994B974008BDDE8531 /* CMake Rules */,
-				10F4D2FEA31E43D394ED3D4B /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		8095C3625855458DA01599A1 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				61B5512ABF7346A5B9FE872E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock-all.cc */,
+				F8EE7580193A491580CC50E7 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock-all.cc */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		815641364CB240D4B31AC763 /* gmock_main */ = {
+		2629E13ACED94B75AEF32122 /* gtest_main */ = {
 			isa = PBXGroup;
 			children = (
-				4B320FE7276545DCBF91DFF9 /* Source Files */,
-				5B5804E7E5FA4E6283DB1E75 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */,
+				7BB7A9B3753941688BBB6D13 /* Source Files */,
+				E04A63067A164C879A9B753A /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */,
 			);
-			name = gmock_main;
+			name = gtest_main;
 			sourceTree = "<group>";
 		};
-		99B592A16D48481AACF0DFC5 /* Resources */ = {
+		3F3D0DB34F3C463ABD4BFA78 /* gtest */ = {
 			isa = PBXGroup;
 			children = (
+				CDB774442CF14517ABF824A5 /* Source Files */,
+				6D2A8A8039F443BFA8502D4C /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */,
 			);
-			name = Resources;
+			name = gtest;
 			sourceTree = "<group>";
 		};
-		9CFF50F4127B4F5B8619F895 /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				AA3E2F9F96A148B7B58BBFBE /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest_main.cc */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		AEBDFA9DB99B49E2B47AB0F3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BA43A906BCF8421E83527941 = {
-			isa = PBXGroup;
-			children = (
-				68E67A8237E940DE883FFA74 /* ALL_BUILD */,
-				53413CFD34C94B6DB8495E5D /* gmock */,
-				815641364CB240D4B31AC763 /* gmock_main */,
-				10CD9FDFA04642799340D605 /* gtest */,
-				DBBB2484B9BE4546B1934CD1 /* gtest_main */,
-				52BBC2A8DC6F4D0496E569F9 /* Products */,
-				AEBDFA9DB99B49E2B47AB0F3 /* Frameworks */,
-				99B592A16D48481AACF0DFC5 /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		D9C9C6994B974008BDDE8531 /* CMake Rules */ = {
+		47E35372A1AB4ED992A88F9C /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		DBBB2484B9BE4546B1934CD1 /* gtest_main */ = {
+		6AEF1162CE224E40A0B39CFB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9CFF50F4127B4F5B8619F895 /* Source Files */,
-				BB7CF057714545D5BE4696F7 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/CMakeLists.txt */,
 			);
-			name = gtest_main;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7BB7A9B3753941688BBB6D13 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				47045C2F6D4D46C2B987FA7C /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest_main.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A613ACEE6F234594A18E4BBF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				47E35372A1AB4ED992A88F9C /* CMake Rules */,
+				80F0CCAB09CB4C11B6F9F4B6 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C199C9FCAB4147D18D3CF58F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAB1C9032F184AC59C6ECC6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30AE6D6F625D4B8B9F1BC344 /* gmock */,
+				988A20B1531343E693889870 /* gmock_main */,
+				F6B18A6467E0456A823EBC7C /* gtest */,
+				41C127DA19E941159B100EF4 /* gtest_main */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB774442CF14517ABF824A5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				83526D0C807C4EBB861C47CF /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest-all.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EF7A10E062304C7FBBF67584 /* gmock_main */ = {
+			isa = PBXGroup;
+			children = (
+				19B3BEF126DB4DA9B1588BC1 /* Source Files */,
+				C3906307D49B4F75A088AD98 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/CMakeLists.txt */,
+			);
+			name = gmock_main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,62 +350,62 @@
 /* Begin PBXNativeTarget section */
 		6F4666664AB91A72E9BF43AB /* gmock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8791987E9674FED97039190 /* Build configuration list for PBXNativeTarget "gmock" */;
+			buildConfigurationList = E2937F30FFC7481395029927 /* Build configuration list for PBXNativeTarget "gmock" */;
 			buildPhases = (
-				3D5C51EDF79F4B56B063D3E5 /* Sources */,
-				A4AAC48F79B2400C9153D174 /* Frameworks */,
+				16AAB5EB0750492E9B3CEC21 /* Sources */,
+				74CB4B2A571046B692FFBA9C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				122CA8689BEC42A594D5080A /* PBXTargetDependency */,
+				CDAAE16AB95C4EF6864C764D /* PBXTargetDependency */,
 			);
 			name = gmock;
 			productName = gmock;
-			productReference = 59C5D205D6484ABA90C6C7F7 /* gmock */;
+			productReference = 30AE6D6F625D4B8B9F1BC344 /* gmock */;
 			productType = "com.apple.product-type.library.static";
 		};
 		8860C13D0FB24D4B7011E870 /* gmock_main */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8FDBE2754394BCDBBD0C82E /* Build configuration list for PBXNativeTarget "gmock_main" */;
+			buildConfigurationList = ADBC112CF8B5498EBF0BD4AB /* Build configuration list for PBXNativeTarget "gmock_main" */;
 			buildPhases = (
-				CBDE4E1060BB481590F31F3F /* Sources */,
-				23BFAE29EA4640EBB3261A42 /* Frameworks */,
+				B3BDB84B3D114FCEAF6BDED3 /* Sources */,
+				A2EFBB61EC1843EF8EF54284 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7D928752F27E453380095990 /* PBXTargetDependency */,
-				EE8D24E96F4D4923805EE74A /* PBXTargetDependency */,
+				8F503B90C65344D3871C5893 /* PBXTargetDependency */,
+				4A7E6CCB45AB4389B2ABEF1B /* PBXTargetDependency */,
 			);
 			name = gmock_main;
 			productName = gmock_main;
-			productReference = D8E73561952F498FA8E2A363 /* gmock_main */;
+			productReference = 988A20B1531343E693889870 /* gmock_main */;
 			productType = "com.apple.product-type.library.static";
 		};
 		92B6A9B76EF5CF562A7C88F8 /* gtest_main */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 915CDB5262D94A1291244508 /* Build configuration list for PBXNativeTarget "gtest_main" */;
+			buildConfigurationList = CAEBC98C98C842DE8926DC84 /* Build configuration list for PBXNativeTarget "gtest_main" */;
 			buildPhases = (
-				C4590FB59335427293F9761B /* Sources */,
-				163D7643B6154040A3717639 /* Frameworks */,
+				0B016CB537DA43498E9CF206 /* Sources */,
+				616B7233E72F4C25B596C252 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				849EA502198E47438C112EFA /* PBXTargetDependency */,
+				48DB70D4B2AF425FBBAA7AA4 /* PBXTargetDependency */,
 			);
 			name = gtest_main;
 			productName = gtest_main;
-			productReference = 8CF790F9A6414DF18D3C4CB5 /* gtest_main */;
+			productReference = 41C127DA19E941159B100EF4 /* gtest_main */;
 			productType = "com.apple.product-type.library.static";
 		};
 		FE2E2F19E756FD66DA65BE8A /* gtest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9A05942CF4F471AA2D7A4ED /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildConfigurationList = 9B798676D2F14769A04688B8 /* Build configuration list for PBXNativeTarget "gtest" */;
 			buildPhases = (
-				5A760D6855C948C6BF88F804 /* Sources */,
-				8A4E7F01114443B892A9A5A2 /* Frameworks */,
+				902812B307E14C4E9E20FCFF /* Sources */,
+				3A3FD1E776AA4C8BBF62C144 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -413,7 +413,7 @@
 			);
 			name = gtest;
 			productName = gtest;
-			productReference = CB94EBA257DE430C8369BF1B /* gtest */;
+			productReference = F6B18A6467E0456A823EBC7C /* gtest */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -425,18 +425,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1420;
 			};
-			buildConfigurationList = 7C402B20C6FB491B895239A0 /* Build configuration list for PBXProject "googletest-distribution" */;
+			buildConfigurationList = CB5D83DAC9F0455A918127DF /* Build configuration list for PBXProject "googletest-distribution" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				C11BF5C6963844BBA67EDC76 /* Debug */,
-				7E53A55DB20E4B84A30A4ACA /* Release */,
-				7A82A3DB4ECD438D8F552067 /* MinSizeRel */,
-				407A2DF95352423CBB6C5A9E /* RelWithDebInfo */,
+				FB46AF1967744ED5A0009E67 /* Debug */,
+				FBB61BE86E274A5DB2734E9D /* Release */,
+				6DFB98400CEC48CB8B518D14 /* MinSizeRel */,
+				3060E7BFBB4C4726A3256542 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = BA43A906BCF8421E83527941;
+			mainGroup = 00969E34739A444D9F52B8DE;
 			projectDirPath = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest;
 			projectRoot = "";
 			targets = (
@@ -644,391 +644,95 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3D5C51EDF79F4B56B063D3E5 /* Sources */ = {
+		0B016CB537DA43498E9CF206 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87146C90C0EB4E04BE964E1A /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock-all.cc */,
+				B9B79659A32D4BFAA64C7A7E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest_main.cc */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A760D6855C948C6BF88F804 /* Sources */ = {
+		16AAB5EB0750492E9B3CEC21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5E808164AAF4B12B9BE8F17 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest-all.cc */,
+				96717106E7374DF8AD620685 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock-all.cc */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4590FB59335427293F9761B /* Sources */ = {
+		902812B307E14C4E9E20FCFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32DF9A0B582248E0AF0C9311 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest_main.cc */,
+				51A0517738EA43FBA91228A4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/src/gtest-all.cc */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBDE4E1060BB481590F31F3F /* Sources */ = {
+		B3BDB84B3D114FCEAF6BDED3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				662D3737B81D49BE87FDDBC6 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock_main.cc */,
+				0CF1BC121D0E4F6E92ED4DA3 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/src/gmock_main.cc */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		122CA8689BEC42A594D5080A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FE2E2F19E756FD66DA65BE8A /* gtest */;
-			targetProxy = E8FC9E93350B46819E50E38F /* PBXContainerItemProxy */;
-		};
-		318D65C8B3E64E17A5440A00 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92B6A9B76EF5CF562A7C88F8 /* gtest_main */;
-			targetProxy = 72995B12BDC04A27AC1FDAA2 /* PBXContainerItemProxy */;
-		};
-		7089D9EC46FC4A6B94CDC7F3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6F4666664AB91A72E9BF43AB /* gmock */;
-			targetProxy = 8B65B1B0F73B450C904A9F61 /* PBXContainerItemProxy */;
-		};
-		7D928752F27E453380095990 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6F4666664AB91A72E9BF43AB /* gmock */;
-			targetProxy = 500CB6017F8D45A796E14CAA /* PBXContainerItemProxy */;
-		};
-		849EA502198E47438C112EFA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FE2E2F19E756FD66DA65BE8A /* gtest */;
-			targetProxy = 5E36DC0689EA4551B462E568 /* PBXContainerItemProxy */;
-		};
-		C483A0B0C20D4E2091C5696E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9895322AE080059C8C514497 /* ALL_BUILD */;
-			targetProxy = 5D3B5869798D4DFE970E0E60 /* PBXContainerItemProxy */;
-		};
-		D43290D784C3405F8C791A0A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FE2E2F19E756FD66DA65BE8A /* gtest */;
-			targetProxy = 1049346DCF2B400C8F258F85 /* PBXContainerItemProxy */;
-		};
-		DAC353F1411C4E84A9651FDF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8860C13D0FB24D4B7011E870 /* gmock_main */;
-			targetProxy = FE55EB6DF8D24215AEA416E8 /* PBXContainerItemProxy */;
-		};
-		E3A5B7583F214A428A536A26 /* PBXTargetDependency */ = {
+		421EF29F5CAC43FFB5200D56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5814B75A0AEBF12D8B1C3078 /* ZERO_CHECK */;
-			targetProxy = D7499A35B8CD43068CBDF608 /* PBXContainerItemProxy */;
+			targetProxy = 11672AFFE83E4CBC84C5C20E /* PBXContainerItemProxy */;
 		};
-		EE8D24E96F4D4923805EE74A /* PBXTargetDependency */ = {
+		48DB70D4B2AF425FBBAA7AA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FE2E2F19E756FD66DA65BE8A /* gtest */;
-			targetProxy = B29F46C5C3CF42C9B16847BB /* PBXContainerItemProxy */;
+			targetProxy = C055DE7684834D1E8417E6CF /* PBXContainerItemProxy */;
+		};
+		4A7E6CCB45AB4389B2ABEF1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2E2F19E756FD66DA65BE8A /* gtest */;
+			targetProxy = 3D1FBDF36409401F9A0ABAFD /* PBXContainerItemProxy */;
+		};
+		6674D6B5615748BFA3B689C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8860C13D0FB24D4B7011E870 /* gmock_main */;
+			targetProxy = 711B08CF9B2C4FD09AD2F79E /* PBXContainerItemProxy */;
+		};
+		85B9D3BA116549999420578E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F4666664AB91A72E9BF43AB /* gmock */;
+			targetProxy = 47C561752C0642188C11F698 /* PBXContainerItemProxy */;
+		};
+		8DC4CAAEB2D942DBAD447BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2E2F19E756FD66DA65BE8A /* gtest */;
+			targetProxy = 8DB73DE783C241889FC3303A /* PBXContainerItemProxy */;
+		};
+		8F503B90C65344D3871C5893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F4666664AB91A72E9BF43AB /* gmock */;
+			targetProxy = EC34E1F15F6048398A2653A1 /* PBXContainerItemProxy */;
+		};
+		B878D04564B04E82A8A5C4DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9895322AE080059C8C514497 /* ALL_BUILD */;
+			targetProxy = 4006DAE6D1194EA6B0081F03 /* PBXContainerItemProxy */;
+		};
+		C4EBAFF793684D538D62A8D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B6A9B76EF5CF562A7C88F8 /* gtest_main */;
+			targetProxy = FC48E0933DFC44429F98BDF5 /* PBXContainerItemProxy */;
+		};
+		CDAAE16AB95C4EF6864C764D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2E2F19E756FD66DA65BE8A /* gtest */;
+			targetProxy = 22DF1865E5BE4BD18BCD28FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		023AA06FF1834B43B7879EFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
-			};
-			name = Debug;
-		};
-		06F93E4619934B76B0AD381A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Debug;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "   '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gmock_main;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gmock_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		09FE45DFD33F41CD8E92E728 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		0A40508BE9B54CD99CB66D5B /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		0B25FD3168C24EAC9705B0D5 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		1CA3A9759ABF4F43B0447FBD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		2495252BF4A74181B3A12EBB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		24DA8A27500A49868A19B122 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
-			};
-			name = Release;
-		};
-		27261FCBCE104B72951CFDB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		4015072F4CF04391A6FB578A /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/MinSizeRel;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gtest_main;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		41C646CA50F745BBABA9CCC8 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/MinSizeRel;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gtest;
-				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		43ECBDB0F17E4619B7ABC99D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Release;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gtest_main;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		466048B31D254A88ADA08B22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Debug;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "   '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gtest_main;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		54A2809B9CA549B7B64D7F9A /* Debug */ = {
+		09B2B5F8D7764EB2A9D9819A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1057,7 +761,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		5D80579CECF842D4A707A2D7 /* Release */ = {
+		0F105BE89ADE43BFA23CBD6D /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1072,43 +776,14 @@ exit 0";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		610656A4BFA44239B648277D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/RelWithDebInfo;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gtest_main;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		667979C4B30C4E9BA737BE82 /* Release */ = {
+		101A811FC1454EBE844CB63F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1138,7 +813,51 @@ exit 0";
 			};
 			name = Release;
 		};
-		76F5957E5AE44E49B08FA2E1 /* RelWithDebInfo */ = {
+		205A22982CAF467C98CFBD75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		28FF9DC8BF93451A87392F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		29006666AE38453C98B06FFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1158,9 +877,170 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = Release;
+		};
+		3092A2B6EC8A4DE48C41BDB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gmock_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3304E00CDEE645FA913FE933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gmock_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3A05D30E19024846B1EEA2CC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gmock.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3D054BBA74FA4C78ABA96BBB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		51DDA1206521402CA1FDABD4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		536038BD6E574F3A87492262 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = RelWithDebInfo;
 		};
-		7A84DCAFB849405E94940784 /* MinSizeRel */ = {
+		550E6BA5E6FF4486B8748FBF /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1189,7 +1069,7 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		7CA5746AD19748E2A1FCBB7B /* RelWithDebInfo */ = {
+		69377B3F6F6D4F43AEBC75C2 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1204,14 +1084,96 @@ exit 0";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = MinSizeRel;
 		};
-		801690BA3B014F7B847DD6D9 /* Release */ = {
+		6B7FA220D6EC4665B63FF207 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
+			};
+			name = Debug;
+		};
+		70D3886DF69640C38BCFF665 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		74C44807A443493D8C3769FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8669550E1438492F8FD983F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		88B8605CEE2E40C89B663F44 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1231,68 +1193,53 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		81026A7C42AB40FE909C1042 /* Release */ = {
+		8977890D13A84E228A0ED5F5 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Release;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gmock_main;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gmock_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		8C9089A3562E408E86F32348 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Debug;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock,"$(inherited)");
 				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "   '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gmock;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gmock.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		914F4BAEC520409BA480C8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		8CD65E9079EE437DA06BBE7D /* RelWithDebInfo */ = {
+		98B6E169B6B24B4BBA650D33 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1306,106 +1253,22 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock,"$(inherited)");
+				HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
 				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gmock;
+				PRODUCT_NAME = gtest;
 				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gmock.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		92EF9E93A55D42FDB14D4826 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
-			};
-			name = MinSizeRel;
-		};
-		985933E47BDB4FCE8E285C1C /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		99851500DAC64319A1CB7CD4 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/RelWithDebInfo;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gmock_main;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gmock_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		9DF3BCEF36C849BB880B0A12 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		C1D6D92B7B2542CFBC208B9E /* RelWithDebInfo */ = {
+		9D29283263C64565B90FF5B1 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = arm64;
@@ -1415,7 +1278,47 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		CA59ACFAB2E841D684C739D5 /* Release */ = {
+		A220CC45A1C4458EBABEDD09 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		B308892E2FE843ADA3963DA6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gmock;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gmock.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C4D5F937AFD343418AAF3C98 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1430,14 +1333,14 @@ exit 0";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = RUN_TESTS;
 				SECTORDER_FLAGS = "";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = RelWithDebInfo;
 		};
-		CB74D41C6395435C8C8311F6 /* Debug */ = {
+		C7EC033814F149608DD7230B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1459,29 +1362,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		CE21F8BF8A674AEDAFDA1953 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		D116F139FD88451483CB3EF7 /* RelWithDebInfo */ = {
+		CDC2BAAADF074C31B6227A00 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1495,40 +1376,40 @@ exit 0";
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
 				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gtest;
+				PRODUCT_NAME = gmock_main;
 				SECTORDER_FLAGS = "";
-				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gtest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gmock_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		DCBEF35588C041F4BC29181F /* MinSizeRel */ = {
+		D4CDBE6505334EF78219DCF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/MinSizeRel;
+				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Debug;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googlemock,"$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
 				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = gmock;
@@ -1538,31 +1419,77 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
-		EB3560C916BD4C198DEBCBF7 /* RelWithDebInfo */ = {
+		DC01A182291A4A86AF4AD599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
+			};
+			name = Release;
+		};
+		E110486D47AF41EAAE7697BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = gtest_main;
 				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EF1ADE618C7344F98D9BEDC4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		ED179C8B51B74F0CA11E3D0D /* Release */ = {
+		EFFD2CBF400A4BE58A4237E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1590,105 +1517,178 @@ exit 0";
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
+		};
+		F1DB7DB8CEBB49359E6E5F60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++20'  -DGTEST_HAS_PTHREAD=1   ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gtest_main;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/gtest_main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F5726808C12B42F5BF70CA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F70D1C3684514B7A8AFC3E32 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		518976F8D44348DBB2A2FE90 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+		11BD21DE24924D9492674AD9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2495252BF4A74181B3A12EBB /* Debug */,
-				801690BA3B014F7B847DD6D9 /* Release */,
-				0B25FD3168C24EAC9705B0D5 /* MinSizeRel */,
-				76F5957E5AE44E49B08FA2E1 /* RelWithDebInfo */,
+				74C44807A443493D8C3769FB /* Debug */,
+				205A22982CAF467C98CFBD75 /* Release */,
+				69377B3F6F6D4F43AEBC75C2 /* MinSizeRel */,
+				F70D1C3684514B7A8AFC3E32 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		71F1D598ED89476CA386BDB1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		368A8CB1F3E94D498AC4AEBA /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				27261FCBCE104B72951CFDB1 /* Debug */,
-				9DF3BCEF36C849BB880B0A12 /* Release */,
-				0A40508BE9B54CD99CB66D5B /* MinSizeRel */,
-				985933E47BDB4FCE8E285C1C /* RelWithDebInfo */,
+				914F4BAEC520409BA480C8F7 /* Debug */,
+				8669550E1438492F8FD983F1 /* Release */,
+				3D054BBA74FA4C78ABA96BBB /* MinSizeRel */,
+				536038BD6E574F3A87492262 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7C402B20C6FB491B895239A0 /* Build configuration list for PBXProject "googletest-distribution" */ = {
+		41D329F6B6B042D98227A7A3 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				023AA06FF1834B43B7879EFF /* Debug */,
-				24DA8A27500A49868A19B122 /* Release */,
-				92EF9E93A55D42FDB14D4826 /* MinSizeRel */,
-				C1D6D92B7B2542CFBC208B9E /* RelWithDebInfo */,
+				C7EC033814F149608DD7230B /* Debug */,
+				28FF9DC8BF93451A87392F64 /* Release */,
+				8977890D13A84E228A0ED5F5 /* MinSizeRel */,
+				0F105BE89ADE43BFA23CBD6D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		915CDB5262D94A1291244508 /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
+		7823713CF18949738D76A475 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				466048B31D254A88ADA08B22 /* Debug */,
-				43ECBDB0F17E4619B7ABC99D /* Release */,
-				4015072F4CF04391A6FB578A /* MinSizeRel */,
-				610656A4BFA44239B648277D /* RelWithDebInfo */,
+				F5726808C12B42F5BF70CA7C /* Debug */,
+				29006666AE38453C98B06FFC /* Release */,
+				88B8605CEE2E40C89B663F44 /* MinSizeRel */,
+				C4D5F937AFD343418AAF3C98 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A9A05942CF4F471AA2D7A4ED /* Build configuration list for PBXNativeTarget "gtest" */ = {
+		9B798676D2F14769A04688B8 /* Build configuration list for PBXNativeTarget "gtest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54A2809B9CA549B7B64D7F9A /* Debug */,
-				ED179C8B51B74F0CA11E3D0D /* Release */,
-				41C646CA50F745BBABA9CCC8 /* MinSizeRel */,
-				D116F139FD88451483CB3EF7 /* RelWithDebInfo */,
+				09B2B5F8D7764EB2A9D9819A /* Debug */,
+				EFFD2CBF400A4BE58A4237E3 /* Release */,
+				70D3886DF69640C38BCFF665 /* MinSizeRel */,
+				98B6E169B6B24B4BBA650D33 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C58E570B3404420E9203C9AE /* Build configuration list for PBXAggregateTarget "install" */ = {
+		ADBC112CF8B5498EBF0BD4AB /* Build configuration list for PBXNativeTarget "gmock_main" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CA3A9759ABF4F43B0447FBD /* Debug */,
-				5D80579CECF842D4A707A2D7 /* Release */,
-				CE21F8BF8A674AEDAFDA1953 /* MinSizeRel */,
-				EB3560C916BD4C198DEBCBF7 /* RelWithDebInfo */,
+				3092A2B6EC8A4DE48C41BDB5 /* Debug */,
+				3304E00CDEE645FA913FE933 /* Release */,
+				550E6BA5E6FF4486B8748FBF /* MinSizeRel */,
+				CDC2BAAADF074C31B6227A00 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C8791987E9674FED97039190 /* Build configuration list for PBXNativeTarget "gmock" */ = {
+		CAEBC98C98C842DE8926DC84 /* Build configuration list for PBXNativeTarget "gtest_main" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C9089A3562E408E86F32348 /* Debug */,
-				667979C4B30C4E9BA737BE82 /* Release */,
-				DCBEF35588C041F4BC29181F /* MinSizeRel */,
-				8CD65E9079EE437DA06BBE7D /* RelWithDebInfo */,
+				F1DB7DB8CEBB49359E6E5F60 /* Debug */,
+				E110486D47AF41EAAE7697BD /* Release */,
+				51DDA1206521402CA1FDABD4 /* MinSizeRel */,
+				EF1ADE618C7344F98D9BEDC4 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D8FDBE2754394BCDBBD0C82E /* Build configuration list for PBXNativeTarget "gmock_main" */ = {
+		CB5D83DAC9F0455A918127DF /* Build configuration list for PBXProject "googletest-distribution" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06F93E4619934B76B0AD381A /* Debug */,
-				81026A7C42AB40FE909C1042 /* Release */,
-				7A84DCAFB849405E94940784 /* MinSizeRel */,
-				99851500DAC64319A1CB7CD4 /* RelWithDebInfo */,
+				6B7FA220D6EC4665B63FF207 /* Debug */,
+				DC01A182291A4A86AF4AD599 /* Release */,
+				A220CC45A1C4458EBABEDD09 /* MinSizeRel */,
+				9D29283263C64565B90FF5B1 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F98632DD1F4041388E26F7E0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		E2937F30FFC7481395029927 /* Build configuration list for PBXNativeTarget "gmock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB74D41C6395435C8C8311F6 /* Debug */,
-				CA59ACFAB2E841D684C739D5 /* Release */,
-				09FE45DFD33F41CD8E92E728 /* MinSizeRel */,
-				7CA5746AD19748E2A1FCBB7B /* RelWithDebInfo */,
+				D4CDBE6505334EF78219DCF0 /* Debug */,
+				101A811FC1454EBE844CB63F /* Release */,
+				3A05D30E19024846B1EEA2CC /* MinSizeRel */,
+				B308892E2FE843ADA3963DA6 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

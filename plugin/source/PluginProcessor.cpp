@@ -74,14 +74,17 @@ void EulerFlangerAudioProcessor::changeProgramName(int index,
 
 void EulerFlangerAudioProcessor::prepareToPlay(double sampleRate,
                                               int samplesPerBlock) {
-  // Use this method as the place to do any pre-playback
-  // initialisation that you need..
+                                              
   juce::ignoreUnused(sampleRate, samplesPerBlock);
+  Flanger[0].prepare(static_cast<int>(sampleRate), 10.0f);
+  Flanger[1].prepare(static_cast<int>(sampleRate), 10.0f);
+  
+  DBG("PeapareToPley!");
 }
 
 void EulerFlangerAudioProcessor::releaseResources() {
-  // When playback stops, you can use this as an opportunity to free up any
-  // spare memory, etc.
+
+
 }
 
 bool EulerFlangerAudioProcessor::isBusesLayoutSupported(
@@ -110,6 +113,7 @@ bool EulerFlangerAudioProcessor::isBusesLayoutSupported(
 
 void EulerFlangerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer,
                                              juce::MidiBuffer& midiMessages) {
+  DBG("=== My Build ===");
   juce::ignoreUnused(midiMessages);
 
   juce::ScopedNoDenormals noDenormals;
@@ -119,15 +123,16 @@ void EulerFlangerAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer,
   for (auto i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
     buffer.clear(i, 0, buffer.getNumSamples());
 
-  for (int channel = 0; channel < totalNumInputChannels; ++channel) {
+  for (int channel = 0; channel < totalNumInputChannels; ++channel)
+  {
     auto* channelData = buffer.getWritePointer(channel);
     juce::ignoreUnused(channelData);
+    auto* inPutSample = buffer.getReadPointer(channel);
     
-    
-    
-    
-    
-    
+    for (int i = 0; i < buffer.getNumSamples(); ++i)
+    {
+        channelData[i] = Flanger[channel].process(inPutSample[i]);
+    }
   }
 }
 
@@ -161,3 +166,5 @@ void EulerFlangerAudioProcessor::setStateInformation(const void* data,
 juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter() {
   return new audio_plugin::EulerFlangerAudioProcessor();
 }
+
+

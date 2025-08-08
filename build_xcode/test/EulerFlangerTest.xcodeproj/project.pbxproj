@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		5319EA2B6E251A89C1DA351A /* RUN_TESTS */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D495AB1E98BC4B15821FEF64 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildConfigurationList = 866BF98269AB47EA8606F8D9 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
 			buildPhases = (
 				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
 			);
@@ -20,7 +20,7 @@
 		};
 		5814B75A0AEBF12D8B1C3078 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B5EE4C52C7474ECE9B7E46DD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = D3B0C77967C2441C89423C9F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				566D5C8262A49FBD49130570 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -31,25 +31,25 @@
 		};
 		9895322AE080059C8C514497 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 9AC9815BB02B4B3DA4F6C5C0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 35B5902C36B74FA59CB8EBF7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				538DDE49C10F4B2A3519F2C2 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				58727639EA4B4F219A1D52BB /* PBXTargetDependency */,
-				D1300904BA444179ABDC95AD /* PBXTargetDependency */,
+				167594974398427689A1D2A5 /* PBXTargetDependency */,
+				F2E60F4730F040EBA7D4A502 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		D91E4E55E360F1E69B6FF02A /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 77A34C5B083E460590C498FE /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = BF844A3995CE483ABCE9377A /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				6962AC92407F48CF89EA9655 /* PBXTargetDependency */,
+				6BCE6A3888514AF29A83C458 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
@@ -57,92 +57,92 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		021EE9EA04E94F24930634F8 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/WebKit.framework */ = {isa = PBXBuildFile; fileRef = DE9D62DCD41F476693B9F3CC /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/WebKit.framework */; };
-		03905EAB2267489FA3590814 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */ = {isa = PBXBuildFile; fileRef = 3B82EAF664D34432BE62F80D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */; };
-		1CC43B73CC9D484E9A4A2EC0 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_data_structures/juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = 008A1AC648F547AFB22B0B76 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_data_structures/juce_data_structures.mm */; };
-		3A49D98293F647E9917CF44D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */ = {isa = PBXBuildFile; fileRef = 055D4DEE2BE84F43BBD51423 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */; };
-		40FE2B9AE4E9417986A364B5 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework */ = {isa = PBXBuildFile; fileRef = 0DA736E67C77427991C1BD53 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework */; };
-		45606A43D84E4CBAAAD321BA /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 48BF5755BCAA4514A86B45E8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/CMakeLists.txt */; };
-		4584752E11184D5DB32DD20E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */ = {isa = PBXBuildFile; fileRef = 1EAA6A62295440B0A2508AB4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */; };
-		47B93238FFBF4ACD8048A375 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = BC5680319984499CA6651587 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */; };
-		4825A742792E48D39C113575 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework */ = {isa = PBXBuildFile; fileRef = 43716832C55D451F80DF2350 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework */; };
-		4A205D05FC2B48839A198B36 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */ = {isa = PBXBuildFile; fileRef = 304B59617E69436ABAFC5B01 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */; };
-		505CEC6EA9474A00B1F37643 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_events/juce_events.mm */ = {isa = PBXBuildFile; fileRef = B7903705A81444CD968E6AFB /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_events/juce_events.mm */; };
-		59C4944611BC405D8F35909E /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = 7E84E21815D84F96B42F2416 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/QuartzCore.framework */; };
-		5ADC9A60B9164D61887537A8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/source/AudioProcessorTest.cpp */ = {isa = PBXBuildFile; fileRef = 2726A405A73A4251869230F9 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/source/AudioProcessorTest.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion '-Wformat=2' -Wimplicit-fallthrough -Wunused-variable -Wstrict-aliasing -Wuninitialized -Wconversion -Wsign-compare -Wunreachable-code -Wno-ignored-qualifiers -Wswitch-enum -Wdeprecated -Wfloat-equal -Wmissing-field-initializers -Wzero-as-null-pointer-constant -Wreorder -Wshadow-all -Wshorten-64-to-32 -Wconditional-uninitialized -Wconstant-conversion -Wbool-conversion -Wextra-semi -Wnullable-to-nonnull-conversion -Wshift-sign-overflow -Wint-conversion -Wmissing-prototypes -Winconsistent-missing-destructor-override -Werror"; }; };
-		5F5D854984D94D989E38266F /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */ = {isa = PBXBuildFile; fileRef = 062BC2490469409496A9B06E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */; };
-		725A9940233A458AB49AAF34 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */ = {isa = PBXBuildFile; fileRef = 61FEC5AD14AB48A78EB3BB41 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */; };
-		7D20CE5AEE1447DF911CA36B /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework */ = {isa = PBXBuildFile; fileRef = 7FD3EAC196A94DB9935EEC15 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework */; };
-		85FFA754A01B48E1BC2DA782 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */ = {isa = PBXBuildFile; fileRef = 153B06D213EA466CB6A5FEE0 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */; };
-		976CC0B3EC314C71893F158E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core.mm */ = {isa = PBXBuildFile; fileRef = 04D58051C4BC4CCF819866A2 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core.mm */; };
-		98941FA57C9D46C9BFC949ED /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/DiscRecording.framework */ = {isa = PBXBuildFile; fileRef = 174740035BAC43BEBA0CEBAD /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/DiscRecording.framework */; };
-		9B21362FD3474A6BB09FB293 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = 59157B0FC7FF45EBA8D8FCD4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics.mm */; };
-		ACDA7211E52D492FAD1C229C /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Security.framework */ = {isa = PBXBuildFile; fileRef = 1E68161BC020463EA45B7B82 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Security.framework */; };
-		CCAE7B166FD44D1DADE20EA1 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXBuildFile; fileRef = 113BDD0BCFAF49BC8CADB98F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework */; };
-		D4416B1ACB9B4903ADDAE9C8 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Foundation.framework */ = {isa = PBXBuildFile; fileRef = 6D87758869734237B13DBC55 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Foundation.framework */; };
-		DC6B53372E4440598661C9EE /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudioKit.framework */ = {isa = PBXBuildFile; fileRef = 838DC75D29564F0DA5B4E655 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudioKit.framework */; };
-		DDA253A81A654BD39C015BE1 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */ = {isa = PBXBuildFile; fileRef = E4B5A53E04AB4E3C8723E455 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */; };
-		E2B721ABC252472FB7A7DE92 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */ = {isa = PBXBuildFile; fileRef = A95C53BDE8F14CB18B7BA7A9 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */; };
-		ECA8F82E57D84B4481FDC859 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/AudioToolbox.framework */ = {isa = PBXBuildFile; fileRef = 8CC3235219EB48CCAE09D5EA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/AudioToolbox.framework */; };
-		F6E77B58AE834FEA98957F2B /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */ = {isa = PBXBuildFile; fileRef = 30CA3CB8C1ED4C558244B30D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */; };
-		F94DF7EF0C7E4E56B3253AB2 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudio.framework */ = {isa = PBXBuildFile; fileRef = 4C05F6D403244387BE971452 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudio.framework */; };
-		FD72E06921DE4C0A9F09C07D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */ = {isa = PBXBuildFile; fileRef = 2ADAA787DDC24D36A5855827 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */; };
+		00D42C0DFED147F49F5DB169 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_data_structures/juce_data_structures.mm */ = {isa = PBXBuildFile; fileRef = A53E47A83A0E4832B95A1545 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_data_structures/juce_data_structures.mm */; };
+		0398D67286A3483D916AB949 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = 20234B051D684FE1A544B970 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */; };
+		07E541E4D15248E8B250DE13 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */ = {isa = PBXBuildFile; fileRef = 32758012CA414AC091B7CCC5 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */; };
+		0F5903C536F34E81BE2AA595 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/WebKit.framework */ = {isa = PBXBuildFile; fileRef = 187A9652643C4314B6A546AA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/WebKit.framework */; };
+		0FBB4066AA144AA3AE5AE46E /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework */ = {isa = PBXBuildFile; fileRef = 13E24561ABCB48089008D398 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework */; };
+		15DE9020320147DC8A02151E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */ = {isa = PBXBuildFile; fileRef = 962B7D81E15940D4B44D73D1 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */; };
+		24477DEAB069439880990D25 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */ = {isa = PBXBuildFile; fileRef = 207A1CFFBAF44A0CB3124BF8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */; };
+		35C1F4EB8D184759B2E24CCE /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudioKit.framework */ = {isa = PBXBuildFile; fileRef = 477720600FED40ED93D2CFDF /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudioKit.framework */; };
+		3DF32C4A41144007A1833124 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */ = {isa = PBXBuildFile; fileRef = 7735C89E5B7A4D198818FA2A /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */; };
+		4125247FCAA545D6A2446877 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_events/juce_events.mm */ = {isa = PBXBuildFile; fileRef = 9CC051320A664501A991D528 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_events/juce_events.mm */; };
+		45456ADB44D045CE8A89A9B1 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */ = {isa = PBXBuildFile; fileRef = EAF233F67FC344EDA9E4B404 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */; };
+		4AA51E442C854C509D0A4811 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Foundation.framework */ = {isa = PBXBuildFile; fileRef = CFA74D5EAED8449ABEF8EA5E /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Foundation.framework */; };
+		63CEB54DEFC6409D90AAC0C4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */ = {isa = PBXBuildFile; fileRef = 738C1DF596834A8EA1D811E8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */; };
+		735E50B845244F2FB795215D /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = 5F930844AB844CFE918992CA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/QuartzCore.framework */; };
+		7E585E267881469BAC0F214C /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */ = {isa = PBXBuildFile; fileRef = 0A547030E8AA45508F699EAF /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */; };
+		8162D9DE316943369C3FDF6A /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/DiscRecording.framework */ = {isa = PBXBuildFile; fileRef = BA2107149ABF47CCB0FE966B /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/DiscRecording.framework */; };
+		84689069E00542D1973E59DA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/AudioToolbox.framework */ = {isa = PBXBuildFile; fileRef = E1881A571D954EC597F53FE7 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/AudioToolbox.framework */; };
+		88749FF2677E490EBD04AFAA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudio.framework */ = {isa = PBXBuildFile; fileRef = F0E769D6213F4DAF97AB796D /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudio.framework */; };
+		94ADECBBAC244A2183144B97 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */ = {isa = PBXBuildFile; fileRef = D2206870AF684265BDBACA34 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */; };
+		966E991AB5D2411E9ADE1316 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework */ = {isa = PBXBuildFile; fileRef = 36FD5FA77DCD4920BB20BDC4 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework */; };
+		99C854CF5E2E49019338F484 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */ = {isa = PBXBuildFile; fileRef = 6013EFAC9A0B4E7BA3DA25C8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */; };
+		9CE623BAC4F24616BB8C872D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = 9979BFD7488B4235BEA65615 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics.mm */; };
+		A2B737FAFA4B4383A6395719 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework */ = {isa = PBXBuildFile; fileRef = A835EFAEA138414A999884DF /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework */; };
+		A41CE32669324C9385A43E84 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXBuildFile; fileRef = 84B5E279B3064AB587E31E43 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework */; };
+		B801439AF0384E999E315036 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1C66311D7400477C8C23DA4D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/CMakeLists.txt */; };
+		BB8A6E056674472E980159DF /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Security.framework */ = {isa = PBXBuildFile; fileRef = 75E7CCA299184012A59C0515 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Security.framework */; };
+		D1FDE24ADA634BC7843ACC3C /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/source/AudioProcessorTest.cpp */ = {isa = PBXBuildFile; fileRef = 2D9914D3F0EA428E9A01B88F /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/source/AudioProcessorTest.cpp */; settings = {COMPILER_FLAGS = "-Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion '-Wformat=2' -Wimplicit-fallthrough -Wunused-variable -Wstrict-aliasing -Wuninitialized -Wconversion -Wsign-compare -Wunreachable-code -Wno-ignored-qualifiers -Wswitch-enum -Wdeprecated -Wfloat-equal -Wmissing-field-initializers -Wzero-as-null-pointer-constant -Wreorder -Wshadow-all -Wshorten-64-to-32 -Wconditional-uninitialized -Wconstant-conversion -Wbool-conversion -Wextra-semi -Wnullable-to-nonnull-conversion -Wshift-sign-overflow -Wint-conversion -Wmissing-prototypes -Winconsistent-missing-destructor-override -Werror"; }; };
+		DDD1FEA1ED6449639E31A8FB /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */ = {isa = PBXBuildFile; fileRef = F3727ABE63244FDCAF51EBF4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */; };
+		F1E7CE9AC6784F67847E7237 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core.mm */ = {isa = PBXBuildFile; fileRef = 55BC76136EC344C9B7694588 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core.mm */; };
+		F63176585AEC428F96193677 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */ = {isa = PBXBuildFile; fileRef = 5D5031A0B40F496F86CDF0FC /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		247742F19BFB48079A052E1B /* Release */ = {
+		79CAC0EDACF24E9F858BE7F2 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		2817B28128C647558AC8AB3D /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		3CFC4155E1D84CCAB5CEDC91 /* RelWithDebInfo */ = {
+		A8B7F79F51A44F59A2E727EF /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		56FC1F8AF07A4F24A4A8FC73 /* MinSizeRel */ = {
+		D585FC9DCB924AE5B14373B9 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		D62C890E32094C3EAF657616 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		A6ADCE36AE7B400183218719 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A38773E386384D51AC32F21E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9895322AE080059C8C514497;
-			remoteInfo = ALL_BUILD;
-		};
-		D183C0F2B3394C08896E6DB5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A38773E386384D51AC32F21E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A2A279E0668F32E657666243;
-			remoteInfo = EulerFlangerTest;
-		};
-		EA02EB05F7C0496EB4B7A668 /* PBXContainerItemProxy */ = {
+		6952021C6AEE4347B135E47F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A38773E386384D51AC32F21E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5814B75A0AEBF12D8B1C3078;
 			remoteInfo = ZERO_CHECK;
 		};
-		EC85A1A4C7D54BCCA94B8B47 /* PBXContainerItemProxy */ = {
+		A2911F1237FD4502AC8046A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38773E386384D51AC32F21E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9895322AE080059C8C514497;
+			remoteInfo = ALL_BUILD;
+		};
+		CA2B17894442452982DA7177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38773E386384D51AC32F21E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A279E0668F32E657666243;
+			remoteInfo = EulerFlangerTest;
+		};
+		F41BFF3523054199B2234778 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A38773E386384D51AC32F21E /* Project object */;
 			proxyType = 1;
@@ -152,42 +152,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008A1AC648F547AFB22B0B76 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_data_structures/juce_data_structures.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_data_structures.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_data_structures/juce_data_structures.mm; sourceTree = "<absolute>"; };
-		04D58051C4BC4CCF819866A2 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_core.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core.mm; sourceTree = "<absolute>"; };
-		055D4DEE2BE84F43BBD51423 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_core_CompilationTime.cpp; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp; sourceTree = "<absolute>"; };
-		062BC2490469409496A9B06E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = juce_graphics_Sheenbidi.c; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c; sourceTree = "<absolute>"; };
-		0DA736E67C77427991C1BD53 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
-		113BDD0BCFAF49BC8CADB98F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		153B06D213EA466CB6A5FEE0 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_audio_processors_lv2_libs.cpp; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp; sourceTree = "<absolute>"; };
-		174740035BAC43BEBA0CEBAD /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/DiscRecording.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = DiscRecording.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/DiscRecording.framework; sourceTree = "<absolute>"; };
-		1E68161BC020463EA45B7B82 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Security.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Security.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
-		1EAA6A62295440B0A2508AB4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_graphics_Harfbuzz.cpp; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp; sourceTree = "<absolute>"; };
-		2726A405A73A4251869230F9 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/source/AudioProcessorTest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioProcessorTest.cpp; path = source/AudioProcessorTest.cpp; sourceTree = SOURCE_ROOT; };
-		2ADAA787DDC24D36A5855827 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_utils.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm; sourceTree = "<absolute>"; };
-		304B59617E69436ABAFC5B01 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_devices.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm; sourceTree = "<absolute>"; };
-		30CA3CB8C1ED4C558244B30D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_basics.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm; sourceTree = "<absolute>"; };
-		3807D7E4E76B44E0BF0A3FAE /* EulerFlangerTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = EulerFlangerTest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B82EAF664D34432BE62F80D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_audio_processors_ara.cpp; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp; sourceTree = "<absolute>"; };
-		43716832C55D451F80DF2350 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
-		48BF5755BCAA4514A86B45E8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		4C05F6D403244387BE971452 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudio.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
-		4DE131D1BE6B4BBE9FCA1EC6 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		59157B0FC7FF45EBA8D8FCD4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_graphics.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics.mm; sourceTree = "<absolute>"; };
-		61FEC5AD14AB48A78EB3BB41 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_formats.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm; sourceTree = "<absolute>"; };
-		6D87758869734237B13DBC55 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Foundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		7E84E21815D84F96B42F2416 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
-		7FD3EAC196A94DB9935EEC15 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
-		838DC75D29564F0DA5B4E655 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudioKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudioKit.framework; sourceTree = "<absolute>"; };
-		8CC3235219EB48CCAE09D5EA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
-		A95C53BDE8F14CB18B7BA7A9 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_gui_extra.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm; sourceTree = "<absolute>"; };
-		B7903705A81444CD968E6AFB /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_events/juce_events.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_events.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_events/juce_events.mm; sourceTree = "<absolute>"; };
-		BC5680319984499CA6651587 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_gui_basics.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm; sourceTree = "<absolute>"; };
-		DE9D62DCD41F476693B9F3CC /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/WebKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
-		E4B5A53E04AB4E3C8723E455 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_processors.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm; sourceTree = "<absolute>"; };
+		0A547030E8AA45508F699EAF /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_utils.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm; sourceTree = "<absolute>"; };
+		13E24561ABCB48089008D398 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		187A9652643C4314B6A546AA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/WebKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		1891ACCCA34E4646BB23F562 /* EulerFlangerTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = EulerFlangerTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C66311D7400477C8C23DA4D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		20234B051D684FE1A544B970 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_gui_basics.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm; sourceTree = "<absolute>"; };
+		207A1CFFBAF44A0CB3124BF8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = juce_graphics_Sheenbidi.c; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c; sourceTree = "<absolute>"; };
+		2D9914D3F0EA428E9A01B88F /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/source/AudioProcessorTest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AudioProcessorTest.cpp; path = source/AudioProcessorTest.cpp; sourceTree = SOURCE_ROOT; };
+		32758012CA414AC091B7CCC5 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_audio_processors_lv2_libs.cpp; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp; sourceTree = "<absolute>"; };
+		36FD5FA77DCD4920BB20BDC4 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		477720600FED40ED93D2CFDF /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudioKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudioKit.framework; sourceTree = "<absolute>"; };
+		55BC76136EC344C9B7694588 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_core.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core.mm; sourceTree = "<absolute>"; };
+		5D5031A0B40F496F86CDF0FC /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_devices.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm; sourceTree = "<absolute>"; };
+		5F930844AB844CFE918992CA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/QuartzCore.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		6013EFAC9A0B4E7BA3DA25C8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_audio_processors_ara.cpp; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp; sourceTree = "<absolute>"; };
+		738C1DF596834A8EA1D811E8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_gui_extra.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm; sourceTree = "<absolute>"; };
+		75E7CCA299184012A59C0515 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Security.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Security.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		7735C89E5B7A4D198818FA2A /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_core_CompilationTime.cpp; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp; sourceTree = "<absolute>"; };
+		84B5E279B3064AB587E31E43 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		962B7D81E15940D4B44D73D1 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_formats.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm; sourceTree = "<absolute>"; };
+		9979BFD7488B4235BEA65615 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_graphics.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics.mm; sourceTree = "<absolute>"; };
+		9CC051320A664501A991D528 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_events/juce_events.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_events.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_events/juce_events.mm; sourceTree = "<absolute>"; };
+		A53E47A83A0E4832B95A1545 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_data_structures/juce_data_structures.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_data_structures.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_data_structures/juce_data_structures.mm; sourceTree = "<absolute>"; };
+		A835EFAEA138414A999884DF /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		AC2EF466B0B44451BE4C2DE8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BA2107149ABF47CCB0FE966B /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/DiscRecording.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = DiscRecording.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/DiscRecording.framework; sourceTree = "<absolute>"; };
+		CFA74D5EAED8449ABEF8EA5E /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Foundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		D2206870AF684265BDBACA34 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = juce_graphics_Harfbuzz.cpp; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp; sourceTree = "<absolute>"; };
+		E1881A571D954EC597F53FE7 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		EAF233F67FC344EDA9E4B404 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_processors.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm; sourceTree = "<absolute>"; };
+		F0E769D6213F4DAF97AB796D /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudio.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		F3727ABE63244FDCAF51EBF4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = juce_audio_basics.mm; path = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		71215DB8ED2F4A3A8428FB12 /* Frameworks */ = {
+		FE0188F90FCE4039AD505455 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,98 +197,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A6A7A5EFD6249D7A2649024 /* Source Files */ = {
+		49E72F6BAED34B7989BC2485 = {
 			isa = PBXGroup;
 			children = (
-				30CA3CB8C1ED4C558244B30D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */,
-				304B59617E69436ABAFC5B01 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */,
-				61FEC5AD14AB48A78EB3BB41 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */,
-				E4B5A53E04AB4E3C8723E455 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */,
-				3B82EAF664D34432BE62F80D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */,
-				153B06D213EA466CB6A5FEE0 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */,
-				2ADAA787DDC24D36A5855827 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */,
-				04D58051C4BC4CCF819866A2 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core.mm */,
-				055D4DEE2BE84F43BBD51423 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */,
-				008A1AC648F547AFB22B0B76 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_data_structures/juce_data_structures.mm */,
-				B7903705A81444CD968E6AFB /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_events/juce_events.mm */,
-				59157B0FC7FF45EBA8D8FCD4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics.mm */,
-				1EAA6A62295440B0A2508AB4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */,
-				062BC2490469409496A9B06E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */,
-				BC5680319984499CA6651587 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */,
-				A95C53BDE8F14CB18B7BA7A9 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */,
-				2726A405A73A4251869230F9 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/source/AudioProcessorTest.cpp */,
+				DC2431A95D7B43518785EE9D /* EulerFlangerTest */,
+				A8513160C498425AB3AB2A66 /* ALL_BUILD */,
+				AE2F8BADF325460DBD7A1B2B /* Products */,
+				E3299A17F94C481AB4989FD7 /* Frameworks */,
+				DDD75255729C476A8A675798 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		A8513160C498425AB3AB2A66 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D323171F860E44DFB761F878 /* CMake Rules */,
+				AC2EF466B0B44451BE4C2DE8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AE2F8BADF325460DBD7A1B2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1891ACCCA34E4646BB23F562 /* EulerFlangerTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC94A9BBF6EF4280B9CE77A2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3727ABE63244FDCAF51EBF4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */,
+				5D5031A0B40F496F86CDF0FC /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */,
+				962B7D81E15940D4B44D73D1 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */,
+				EAF233F67FC344EDA9E4B404 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */,
+				6013EFAC9A0B4E7BA3DA25C8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */,
+				32758012CA414AC091B7CCC5 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */,
+				0A547030E8AA45508F699EAF /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */,
+				55BC76136EC344C9B7694588 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core.mm */,
+				7735C89E5B7A4D198818FA2A /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */,
+				A53E47A83A0E4832B95A1545 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_data_structures/juce_data_structures.mm */,
+				9CC051320A664501A991D528 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_events/juce_events.mm */,
+				9979BFD7488B4235BEA65615 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics.mm */,
+				D2206870AF684265BDBACA34 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */,
+				207A1CFFBAF44A0CB3124BF8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */,
+				20234B051D684FE1A544B970 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */,
+				738C1DF596834A8EA1D811E8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */,
+				2D9914D3F0EA428E9A01B88F /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/source/AudioProcessorTest.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		3D011FCB34BF448E8AF5376E /* CMake Rules */ = {
+		D323171F860E44DFB761F878 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		4597D25D5B554CD0B9F37484 /* Resources */ = {
+		DC2431A95D7B43518785EE9D /* EulerFlangerTest */ = {
+			isa = PBXGroup;
+			children = (
+				CC94A9BBF6EF4280B9CE77A2 /* Source Files */,
+				1C66311D7400477C8C23DA4D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/CMakeLists.txt */,
+			);
+			name = EulerFlangerTest;
+			sourceTree = "<group>";
+		};
+		DDD75255729C476A8A675798 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		564F77907ED84F638A4D8471 /* EulerFlangerTest */ = {
+		E3299A17F94C481AB4989FD7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3A6A7A5EFD6249D7A2649024 /* Source Files */,
-				48BF5755BCAA4514A86B45E8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/CMakeLists.txt */,
-			);
-			name = EulerFlangerTest;
-			sourceTree = "<group>";
-		};
-		754CDF933D7F4FAEAB0F7B15 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				3D011FCB34BF448E8AF5376E /* CMake Rules */,
-				4DE131D1BE6B4BBE9FCA1EC6 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		9A7CB6E40540426FAFC67F6F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DE9D62DCD41F476693B9F3CC /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/WebKit.framework */,
-				838DC75D29564F0DA5B4E655 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudioKit.framework */,
-				174740035BAC43BEBA0CEBAD /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/DiscRecording.framework */,
-				7E84E21815D84F96B42F2416 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/QuartzCore.framework */,
-				4C05F6D403244387BE971452 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudio.framework */,
-				7FD3EAC196A94DB9935EEC15 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework */,
-				8CC3235219EB48CCAE09D5EA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/AudioToolbox.framework */,
-				43716832C55D451F80DF2350 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework */,
-				113BDD0BCFAF49BC8CADB98F /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework */,
-				6D87758869734237B13DBC55 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Foundation.framework */,
-				0DA736E67C77427991C1BD53 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework */,
-				1E68161BC020463EA45B7B82 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Security.framework */,
+				187A9652643C4314B6A546AA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/WebKit.framework */,
+				477720600FED40ED93D2CFDF /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudioKit.framework */,
+				BA2107149ABF47CCB0FE966B /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/DiscRecording.framework */,
+				5F930844AB844CFE918992CA /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/QuartzCore.framework */,
+				F0E769D6213F4DAF97AB796D /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreAudio.framework */,
+				A835EFAEA138414A999884DF /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreMIDI.framework */,
+				E1881A571D954EC597F53FE7 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/AudioToolbox.framework */,
+				13E24561ABCB48089008D398 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Accelerate.framework */,
+				84B5E279B3064AB587E31E43 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework */,
+				CFA74D5EAED8449ABEF8EA5E /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Foundation.framework */,
+				36FD5FA77DCD4920BB20BDC4 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework */,
+				75E7CCA299184012A59C0515 /* /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Security.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B8E5FE81B9D54908924821C0 = {
-			isa = PBXGroup;
-			children = (
-				564F77907ED84F638A4D8471 /* EulerFlangerTest */,
-				754CDF933D7F4FAEAB0F7B15 /* ALL_BUILD */,
-				DBD8C0CB50754EC2A7CBD19A /* Products */,
-				9A7CB6E40540426FAFC67F6F /* Frameworks */,
-				4597D25D5B554CD0B9F37484 /* Resources */,
-			);
-			sourceTree = "<group>";
-		};
-		DBD8C0CB50754EC2A7CBD19A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3807D7E4E76B44E0BF0A3FAE /* EulerFlangerTest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,19 +296,19 @@
 /* Begin PBXNativeTarget section */
 		A2A279E0668F32E657666243 /* EulerFlangerTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E93A1C240BE643EE9F43396D /* Build configuration list for PBXNativeTarget "EulerFlangerTest" */;
+			buildConfigurationList = A4D5F314164148E99935DF27 /* Build configuration list for PBXNativeTarget "EulerFlangerTest" */;
 			buildPhases = (
-				34FA36E9C19649F59A739D7C /* Sources */,
-				71215DB8ED2F4A3A8428FB12 /* Frameworks */,
+				A03F7D135BA240F6B9FD1E36 /* Sources */,
+				FE0188F90FCE4039AD505455 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E7A2DF5113AA4C9C83DE7296 /* PBXTargetDependency */,
+				24A5584D015D45D3AAB09AB3 /* PBXTargetDependency */,
 			);
 			name = EulerFlangerTest;
 			productName = EulerFlangerTest;
-			productReference = 3807D7E4E76B44E0BF0A3FAE /* EulerFlangerTest */;
+			productReference = 1891ACCCA34E4646BB23F562 /* EulerFlangerTest */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -320,18 +320,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1420;
 			};
-			buildConfigurationList = B948BCCC1B464136BFBCDA91 /* Build configuration list for PBXProject "EulerFlangerTest" */;
+			buildConfigurationList = C6213AF4E8E5493EA73BCD4D /* Build configuration list for PBXProject "EulerFlangerTest" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				2817B28128C647558AC8AB3D /* Debug */,
-				247742F19BFB48079A052E1B /* Release */,
-				56FC1F8AF07A4F24A4A8FC73 /* MinSizeRel */,
-				3CFC4155E1D84CCAB5CEDC91 /* RelWithDebInfo */,
+				D62C890E32094C3EAF657616 /* Debug */,
+				79CAC0EDACF24E9F858BE7F2 /* Release */,
+				D585FC9DCB924AE5B14373B9 /* MinSizeRel */,
+				A8B7F79F51A44F59A2E727EF /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = B8E5FE81B9D54908924821C0;
+			mainGroup = 49E72F6BAED34B7989BC2485;
 			projectDirPath = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test;
 			projectRoot = "";
 			targets = (
@@ -536,391 +536,57 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		34FA36E9C19649F59A739D7C /* Sources */ = {
+		A03F7D135BA240F6B9FD1E36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6E77B58AE834FEA98957F2B /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */,
-				4A205D05FC2B48839A198B36 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */,
-				725A9940233A458AB49AAF34 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */,
-				DDA253A81A654BD39C015BE1 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */,
-				03905EAB2267489FA3590814 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */,
-				85FFA754A01B48E1BC2DA782 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */,
-				FD72E06921DE4C0A9F09C07D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */,
-				976CC0B3EC314C71893F158E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core.mm */,
-				3A49D98293F647E9917CF44D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */,
-				1CC43B73CC9D484E9A4A2EC0 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_data_structures/juce_data_structures.mm */,
-				505CEC6EA9474A00B1F37643 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_events/juce_events.mm */,
-				9B21362FD3474A6BB09FB293 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics.mm */,
-				4584752E11184D5DB32DD20E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */,
-				5F5D854984D94D989E38266F /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */,
-				47B93238FFBF4ACD8048A375 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */,
-				E2B721ABC252472FB7A7DE92 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */,
-				5ADC9A60B9164D61887537A8 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/source/AudioProcessorTest.cpp */,
+				DDD1FEA1ED6449639E31A8FB /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_basics/juce_audio_basics.mm */,
+				F63176585AEC428F96193677 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_devices/juce_audio_devices.mm */,
+				15DE9020320147DC8A02151E /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_formats/juce_audio_formats.mm */,
+				45456ADB44D045CE8A89A9B1 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors.mm */,
+				99C854CF5E2E49019338F484 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_ara.cpp */,
+				07E541E4D15248E8B250DE13 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp */,
+				7E585E267881469BAC0F214C /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_utils/juce_audio_utils.mm */,
+				F1E7CE9AC6784F67847E7237 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core.mm */,
+				3DF32C4A41144007A1833124 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_core/juce_core_CompilationTime.cpp */,
+				00D42C0DFED147F49F5DB169 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_data_structures/juce_data_structures.mm */,
+				4125247FCAA545D6A2446877 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_events/juce_events.mm */,
+				9CE623BAC4F24616BB8C872D /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics.mm */,
+				94ADECBBAC244A2183144B97 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Harfbuzz.cpp */,
+				24477DEAB069439880990D25 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_graphics/juce_graphics_Sheenbidi.c */,
+				0398D67286A3483D916AB949 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_basics/juce_gui_basics.mm */,
+				63CEB54DEFC6409D90AAC0C4 /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_gui_extra/juce_gui_extra.mm */,
+				D1FDE24ADA634BC7843ACC3C /* /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/test/source/AudioProcessorTest.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		58727639EA4B4F219A1D52BB /* PBXTargetDependency */ = {
+		167594974398427689A1D2A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A2A279E0668F32E657666243 /* EulerFlangerTest */;
-			targetProxy = D183C0F2B3394C08896E6DB5 /* PBXContainerItemProxy */;
+			targetProxy = CA2B17894442452982DA7177 /* PBXContainerItemProxy */;
 		};
-		6962AC92407F48CF89EA9655 /* PBXTargetDependency */ = {
+		24A5584D015D45D3AAB09AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5814B75A0AEBF12D8B1C3078 /* ZERO_CHECK */;
+			targetProxy = F41BFF3523054199B2234778 /* PBXContainerItemProxy */;
+		};
+		6BCE6A3888514AF29A83C458 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9895322AE080059C8C514497 /* ALL_BUILD */;
-			targetProxy = A6ADCE36AE7B400183218719 /* PBXContainerItemProxy */;
+			targetProxy = A2911F1237FD4502AC8046A8 /* PBXContainerItemProxy */;
 		};
-		D1300904BA444179ABDC95AD /* PBXTargetDependency */ = {
+		F2E60F4730F040EBA7D4A502 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5814B75A0AEBF12D8B1C3078 /* ZERO_CHECK */;
-			targetProxy = EA02EB05F7C0496EB4B7A668 /* PBXContainerItemProxy */;
-		};
-		E7A2DF5113AA4C9C83DE7296 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5814B75A0AEBF12D8B1C3078 /* ZERO_CHECK */;
-			targetProxy = EC85A1A4C7D54BCCA94B8B47 /* PBXContainerItemProxy */;
+			targetProxy = 6952021C6AEE4347B135E47F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0742472C58274559B5174BB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
-			};
-			name = Debug;
-		};
-		07FAFCC8D4DC42BE910CEDB5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		0AFC36E2C6904539A74393F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		0D42E7755CFB448C9006FA62 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		1433B237DB994929BFEAB7D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		19A8A0B16DBC4EF4BD9AB6CD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		2AF3A6693EB64FC6B03824BE /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
-			};
-			name = RelWithDebInfo;
-		};
-		2E2DEAA70F324935BBB02DC5 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		3A2C08F860CC4F58A53C5C3F /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
-			};
-			name = MinSizeRel;
-		};
-		4FBEF46E0E414068B982BD94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = arm64;
-				SDKROOT = "";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
-			};
-			name = Release;
-		};
-		5D57B1FB428E41FAB664DB31 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = RUN_TESTS;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		70EA84ECC63B4A59A21E7F7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		8262A597A9B74BE4AFB8CF8A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		8EFD7F0D05594A829450AE0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/test/Debug;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1'","'DEBUG=1'","'_DEBUG=1'","'JucePlugin_IsSynth=0'","'JucePlugin_ManufacturerCode=0x4d636d70'","'JucePlugin_Manufacturer=\"EulerPlugin\"'","'JucePlugin_ManufacturerWebsite=\"\"'","'JucePlugin_ManufacturerEmail=\"\"'","'JucePlugin_PluginCode=0x4578706c'","'JucePlugin_ProducesMidiOutput=0'","'JucePlugin_IsMidiEffect=0'","'JucePlugin_WantsMidiInput=0'","'JucePlugin_EditorRequiresKeyboardFocus=0'","'JucePlugin_Name=\"EulerFlanger\"'","'JucePlugin_Desc=\"EulerFlanger\"'","'JucePlugin_Version=0.1.0'","'JucePlugin_VersionString=\"0.1.0\"'","'JucePlugin_VersionCode=0x100'","'JucePlugin_VSTUniqueID=JucePlugin_PluginCode'","'JucePlugin_VSTCategory=kPlugCategEffect'","'JucePlugin_Vst3Category=\"Fx\"'","'JucePlugin_AUMainType='\\''aufx'\\'''","'JucePlugin_AUSubType=JucePlugin_PluginCode'","'JucePlugin_AUExportPrefix=EulerFlangerAU'","'JucePlugin_AUExportPrefixQuoted=\"EulerFlangerAU\"'","'JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_CFBundleIdentifier=com.EulerPlugin.EulerFlanger'","'JucePlugin_AAXIdentifier=com.EulerPlugin.EulerFlanger'","'JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_AAXProductId=JucePlugin_PluginCode'","'JucePlugin_AAXCategory=0'","'JucePlugin_AAXDisableBypass=0'","'JucePlugin_AAXDisableMultiMono=0'","'JucePlugin_VSTNumMidiInputs=16'","'JucePlugin_VSTNumMidiOutputs=16'","'JucePlugin_Enable_ARA=0'","'JucePlugin_ARAFactoryID=\"com.EulerPlugin.EulerFlanger.arafactory.0.1.0\"'","'JucePlugin_ARADocumentArchiveID=\"com.EulerPlugin.EulerFlanger.aradocumentarchive.1\"'","'JucePlugin_ARACompatibleArchiveIDs=\"\"'","'JucePlugin_ARAContentTypes=0'","'JucePlugin_ARATransformationFlags=0'","'JUCE_WEB_BROWSER=0'","'JUCE_USE_CURL=0'","'JUCE_VST3_CAN_REPLACE_VST2=0'","'JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1'","'JUCE_MODULE_AVAILABLE_juce_audio_processors=1'","'JUCE_MODULE_AVAILABLE_juce_gui_extra=1'","'JUCE_MODULE_AVAILABLE_juce_gui_basics=1'","'JUCE_MODULE_AVAILABLE_juce_graphics=1'","'JUCE_MODULE_AVAILABLE_juce_events=1'","'JUCE_MODULE_AVAILABLE_juce_core=1'","'JUCE_MODULE_AVAILABLE_juce_data_structures=1'","'JUCE_MODULE_AVAILABLE_juce_audio_basics=1'","'JUCE_MODULE_AVAILABLE_juce_audio_utils=1'","'JUCE_MODULE_AVAILABLE_juce_audio_formats=1'","'JUCE_MODULE_AVAILABLE_juce_audio_devices=1'","'JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/plugin/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/VST3_SDK,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lv2,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/serd,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord/src,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sratom,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src,"$(inherited)");
-				INSTALL_PATH = "";
-				LD_NO_PIE = NO;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = ("   -fPIE        -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++20' -fPIE        -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/plugin/EulerFlanger_artefacts/Debug/libEulerFlanger_SharedCode.a,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Debug/libgtest_main.a,"-framework WebKit","-weak_framework Metal","-weak_framework MetalKit","-framework CoreAudioKit","-framework DiscRecording","-framework QuartzCore","-framework CoreAudio","-framework CoreMIDI","-framework AudioToolbox","-framework Accelerate","-framework Cocoa","-framework Foundation","-framework IOKit","-framework Security",/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Debug/libgtest.a,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = EulerFlangerTest;
-				SECTORDER_FLAGS = "";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
-				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/EulerFlangerTest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		9195DBE59C80468DAA2185A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		9E2DBCF792DE477ABFC7F754 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		AD5D45B5B7864A719A29135D /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		B25959130F1949579FFC10B8 /* Debug */ = {
+		0C70A7D7C3AA4DC3A014FBBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -942,7 +608,29 @@ exit 0";
 			};
 			name = Debug;
 		};
-		C5FCE09C1822472495E1DDA0 /* Release */ = {
+		12C495FE9E754702976988E9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		15224C7D906242EBB794BFDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -973,29 +661,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		D36FB1AB781E4928BB59C4DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = arm64;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		E2695FFB6B3A4D1BA75329C5 /* RelWithDebInfo */ = {
+		171830FC7D424498BF420F85 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1026,7 +692,243 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		F1A9A822953E4426A894D679 /* RelWithDebInfo */ = {
+		198964D5AE4A4CD9A73F2694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1A6AEC51078F4B059548EFE3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		358E3611CFFE460182DECDF3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		38E9AAED5F4E49569AB8BD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3B98D139A2CF4719A86069B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		46EEF0D353B347FF973459F0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		49C6D99EE40248FD8E9CCDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		57014BB6C1614502BEE9F67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
+			};
+			name = Release;
+		};
+		6E80592031A6463498FC3006 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8CBCA0DF30AA4CD9A7F55F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
+			};
+			name = Debug;
+		};
+		9282346B901746268C497A1C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A04437A6AD9B45AEAE8B7420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/test/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1'","'DEBUG=1'","'_DEBUG=1'","'JucePlugin_IsSynth=0'","'JucePlugin_ManufacturerCode=0x4d636d70'","'JucePlugin_Manufacturer=\"EulerPlugin\"'","'JucePlugin_ManufacturerWebsite=\"\"'","'JucePlugin_ManufacturerEmail=\"\"'","'JucePlugin_PluginCode=0x4578706c'","'JucePlugin_ProducesMidiOutput=0'","'JucePlugin_IsMidiEffect=0'","'JucePlugin_WantsMidiInput=0'","'JucePlugin_EditorRequiresKeyboardFocus=0'","'JucePlugin_Name=\"EulerFlanger\"'","'JucePlugin_Desc=\"EulerFlanger\"'","'JucePlugin_Version=0.1.0'","'JucePlugin_VersionString=\"0.1.0\"'","'JucePlugin_VersionCode=0x100'","'JucePlugin_VSTUniqueID=JucePlugin_PluginCode'","'JucePlugin_VSTCategory=kPlugCategEffect'","'JucePlugin_Vst3Category=\"Fx\"'","'JucePlugin_AUMainType='\\''aufx'\\'''","'JucePlugin_AUSubType=JucePlugin_PluginCode'","'JucePlugin_AUExportPrefix=EulerFlangerAU'","'JucePlugin_AUExportPrefixQuoted=\"EulerFlangerAU\"'","'JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_CFBundleIdentifier=com.EulerPlugin.EulerFlanger'","'JucePlugin_AAXIdentifier=com.EulerPlugin.EulerFlanger'","'JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode'","'JucePlugin_AAXProductId=JucePlugin_PluginCode'","'JucePlugin_AAXCategory=0'","'JucePlugin_AAXDisableBypass=0'","'JucePlugin_AAXDisableMultiMono=0'","'JucePlugin_VSTNumMidiInputs=16'","'JucePlugin_VSTNumMidiOutputs=16'","'JucePlugin_Enable_ARA=0'","'JucePlugin_ARAFactoryID=\"com.EulerPlugin.EulerFlanger.arafactory.0.1.0\"'","'JucePlugin_ARADocumentArchiveID=\"com.EulerPlugin.EulerFlanger.aradocumentarchive.1\"'","'JucePlugin_ARACompatibleArchiveIDs=\"\"'","'JucePlugin_ARAContentTypes=0'","'JucePlugin_ARATransformationFlags=0'","'JUCE_WEB_BROWSER=0'","'JUCE_USE_CURL=0'","'JUCE_VST3_CAN_REPLACE_VST2=0'","'JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1'","'JUCE_MODULE_AVAILABLE_juce_audio_processors=1'","'JUCE_MODULE_AVAILABLE_juce_gui_extra=1'","'JUCE_MODULE_AVAILABLE_juce_gui_basics=1'","'JUCE_MODULE_AVAILABLE_juce_graphics=1'","'JUCE_MODULE_AVAILABLE_juce_events=1'","'JUCE_MODULE_AVAILABLE_juce_core=1'","'JUCE_MODULE_AVAILABLE_juce_data_structures=1'","'JUCE_MODULE_AVAILABLE_juce_audio_basics=1'","'JUCE_MODULE_AVAILABLE_juce_audio_utils=1'","'JUCE_MODULE_AVAILABLE_juce_audio_formats=1'","'JUCE_MODULE_AVAILABLE_juce_audio_devices=1'","'JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/plugin/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/VST3_SDK,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lv2,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/serd,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sord/src,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/sratom,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules/juce_audio_processors/format_types/LV2_SDK/lilv/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LD_NO_PIE = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -fPIE        -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++20' -fPIE        -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wfloat-equal -Wmissing-field-initializers -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/plugin/EulerFlanger_artefacts/Debug/libEulerFlanger_SharedCode.a,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Debug/libgtest_main.a,"-framework WebKit","-weak_framework Metal","-weak_framework MetalKit","-framework CoreAudioKit","-framework DiscRecording","-framework QuartzCore","-framework CoreAudio","-framework CoreMIDI","-framework AudioToolbox","-framework Accelerate","-framework Cocoa","-framework Foundation","-framework IOKit","-framework Security",/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/lib/Debug/libgtest.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = EulerFlangerTest;
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest/include,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/juce/modules,/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/libs/googletest/googletest,"$(inherited)");
+				TARGET_TEMP_DIR = "/Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build/EulerFlangerTest.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A87127C1FD764E4DB1E9639B /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1048,7 +950,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		FDB97B2CDC404326BC50FBEF /* MinSizeRel */ = {
+		AB7FA54DA6814F9EBD14351A /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1079,7 +981,39 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		FFCABDF0260A41678E941B1B /* MinSizeRel */ = {
+		B4CB9FFAFA3A4EB0A7C6EB96 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C423E68EA1AE467D830F1821 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/sanghoonyou/Desktop/DSP_WolfSound/Lesson04.DSP_Practice/Flanger_JUCE/build_xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		E01A82CA85F0413E84512AB2 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1101,71 +1035,137 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
+		E64E51E573054C3DAB5CB4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EFC54EA2148B42A2A7F79A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F6ABB46875B0422EBD23AD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		77A34C5B083E460590C498FE /* Build configuration list for PBXAggregateTarget "install" */ = {
+		35B5902C36B74FA59CB8EBF7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B25959130F1949579FFC10B8 /* Debug */,
-				70EA84ECC63B4A59A21E7F7A /* Release */,
-				AD5D45B5B7864A719A29135D /* MinSizeRel */,
-				8262A597A9B74BE4AFB8CF8A /* RelWithDebInfo */,
+				EFC54EA2148B42A2A7F79A07 /* Debug */,
+				F6ABB46875B0422EBD23AD39 /* Release */,
+				E01A82CA85F0413E84512AB2 /* MinSizeRel */,
+				46EEF0D353B347FF973459F0 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9AC9815BB02B4B3DA4F6C5C0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		866BF98269AB47EA8606F8D9 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D36FB1AB781E4928BB59C4DB /* Debug */,
-				9195DBE59C80468DAA2185A5 /* Release */,
-				FFCABDF0260A41678E941B1B /* MinSizeRel */,
-				9E2DBCF792DE477ABFC7F754 /* RelWithDebInfo */,
+				E64E51E573054C3DAB5CB4C2 /* Debug */,
+				3B98D139A2CF4719A86069B1 /* Release */,
+				9282346B901746268C497A1C /* MinSizeRel */,
+				A87127C1FD764E4DB1E9639B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B5EE4C52C7474ECE9B7E46DD /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		A4D5F314164148E99935DF27 /* Build configuration list for PBXNativeTarget "EulerFlangerTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07FAFCC8D4DC42BE910CEDB5 /* Debug */,
-				0AFC36E2C6904539A74393F5 /* Release */,
-				0D42E7755CFB448C9006FA62 /* MinSizeRel */,
-				2E2DEAA70F324935BBB02DC5 /* RelWithDebInfo */,
+				A04437A6AD9B45AEAE8B7420 /* Debug */,
+				15224C7D906242EBB794BFDB /* Release */,
+				AB7FA54DA6814F9EBD14351A /* MinSizeRel */,
+				171830FC7D424498BF420F85 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B948BCCC1B464136BFBCDA91 /* Build configuration list for PBXProject "EulerFlangerTest" */ = {
+		BF844A3995CE483ABCE9377A /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0742472C58274559B5174BB5 /* Debug */,
-				4FBEF46E0E414068B982BD94 /* Release */,
-				3A2C08F860CC4F58A53C5C3F /* MinSizeRel */,
-				2AF3A6693EB64FC6B03824BE /* RelWithDebInfo */,
+				0C70A7D7C3AA4DC3A014FBBC /* Debug */,
+				38E9AAED5F4E49569AB8BD65 /* Release */,
+				1A6AEC51078F4B059548EFE3 /* MinSizeRel */,
+				B4CB9FFAFA3A4EB0A7C6EB96 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D495AB1E98BC4B15821FEF64 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+		C6213AF4E8E5493EA73BCD4D /* Build configuration list for PBXProject "EulerFlangerTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1433B237DB994929BFEAB7D3 /* Debug */,
-				19A8A0B16DBC4EF4BD9AB6CD /* Release */,
-				5D57B1FB428E41FAB664DB31 /* MinSizeRel */,
-				F1A9A822953E4426A894D679 /* RelWithDebInfo */,
+				8CBCA0DF30AA4CD9A7F55F39 /* Debug */,
+				57014BB6C1614502BEE9F67E /* Release */,
+				C423E68EA1AE467D830F1821 /* MinSizeRel */,
+				358E3611CFFE460182DECDF3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E93A1C240BE643EE9F43396D /* Build configuration list for PBXNativeTarget "EulerFlangerTest" */ = {
+		D3B0C77967C2441C89423C9F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EFD7F0D05594A829450AE0A /* Debug */,
-				C5FCE09C1822472495E1DDA0 /* Release */,
-				FDB97B2CDC404326BC50FBEF /* MinSizeRel */,
-				E2695FFB6B3A4D1BA75329C5 /* RelWithDebInfo */,
+				49C6D99EE40248FD8E9CCDA0 /* Debug */,
+				198964D5AE4A4CD9A73F2694 /* Release */,
+				6E80592031A6463498FC3006 /* MinSizeRel */,
+				12C495FE9E754702976988E9 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

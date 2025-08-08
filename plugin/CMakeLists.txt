@@ -72,5 +72,8 @@ source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR}/..)
 
 set(INSTALL_COMPONENT_DIR "$ENV{HOME}/Library/Audio/Plug-Ins/Components")
 
-install(TARGETS ${PROJECT_NAME}
-        DESTINATION "${INSTALL_COMPONENT_DIR}")
+install(FILES
+    ${CMAKE_CURRENT_BINARY_DIR}/plugin/EulerFlanger_artefacts/Debug/AU/EulerFlanger.component
+    DESTINATION "${INSTALL_COMPONENT_DIR}")
+
+

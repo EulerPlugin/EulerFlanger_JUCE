@@ -13,8 +13,8 @@
 FlangerDSP::FlangerDSP()
 :dry(0.5f),
  wet(0.5f),
- LFO_base_delay(0.001f),
- LFO_depth(0.0005f),
+ LFO_base_delay(0.004f),
+ LFO_depth(0.003f),
  LFO_rate(0.25f),
  LFO_phase_0(0.0f)
 {
