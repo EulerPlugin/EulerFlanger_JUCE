@@ -9,6 +9,7 @@
 
 #include <stdio.h>
 #include <juce_audio_processors/juce_audio_processors.h>
+#include <EulerFlanger/CircularBuffer.h>
 
 using namespace std;
 
@@ -18,20 +19,24 @@ class FlangerDSP
         FlangerDSP();
         ~FlangerDSP();
         
-        void prepare(const float inSmapleRate, const float inmaxDelayms) noexcept;
+        void prepare(const int inSampleRate, const float inMaxDelayms) noexcept;
         float process(const float inSample) noexcept;
         
     private:
-        float sampleRate = 0.0f;
-        float maxDelaySample = 0.0f;
+        int sampleRate;
+        int maxDelaySample;
         
-        const float dry = 0.5f;
-        const float wet = 0.5f;
+        const float dry;
+        const float wet;
         
-        const float LFO_base_delay = 0.001f;
-        const float LFO_depth = 0.0005f;
+        float LFO_base_delay;
+        float LFO_depth;
         
-        const float LFO_rate = 0.25f;
+        const float LFO_rate;
+        
+        float LFO_phase_0;
+        
+        CircularBuffer CB;
         
         
 };

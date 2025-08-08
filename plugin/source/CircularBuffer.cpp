@@ -8,7 +8,6 @@
 #include <EulerFlanger/CircularBuffer.h>
 #include <cmath>
 
-
 CircularBuffer::CircularBuffer()
 :writeIndex(0), warping(0)
 {
@@ -22,7 +21,7 @@ CircularBuffer::~CircularBuffer()
 
 void CircularBuffer::prepare(const int size) noexcept
 {
-    int buffer_size = static_cast<int>(pow(2.0, ceil(static_cast<double>(size))));
+    buffer_size = static_cast<int>(pow(2.0, ceil(static_cast<double>(log2(size)))));
     warping = buffer_size - 1;
     circular_buffer.resize(static_cast<size_t>(buffer_size));
 }
@@ -37,10 +36,15 @@ float CircularBuffer::readSample(const int inDelaySample) noexcept
 {
     if (inDelaySample < 1 || inDelaySample >= warping + 1)
     {
-        printf("Error : Delay arrange is wrong !");
+        //printf("Error : Delay arrange is wrong !");
         return 0.0f;
     }
     
-    int readIndex = ( writeIndex - inDelaySample ) & warping;
-    return circular_buffer[static_cast<size_t>(readIndex)];
+    float readIndex = static_cast<float>(writeIndex) - static_cast<float>(inDelaySample);
+    
+    if(readIndex < 0.0f)
+        readIndex += static_cast<float>(buffer_size);
+    
+    float sample = LI.process(circular_buffer.data(), readIndex, buffer_size);
+    return sample;
 }

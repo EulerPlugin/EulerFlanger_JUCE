@@ -19,16 +19,19 @@ LinearInterpolation::~LinearInterpolation()
 
 }
 
-float LinearInterpolation::process(const float* buffer, const float inIndex) noexcept
+float LinearInterpolation::process(const float* buffer, const float inIndex, const int buffersize) noexcept
 {
-    if (inIndex < 0 )
+    int wrapMask = buffersize - 1;
+    
+    if (inIndex < 0)
     {
         printf("Error : Index is Wrong!");
         return 0;
     }
     
-    const int low = static_cast<int>(inIndex);
-    const int high = (low + 1) ;
+    const int low = static_cast<int>(inIndex) & wrapMask;
+    int high = (low + 1) & wrapMask ;
+    
     
     const float a = inIndex - low;
     const float y0 = buffer[low];

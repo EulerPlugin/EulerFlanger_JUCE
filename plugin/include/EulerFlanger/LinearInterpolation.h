@@ -15,5 +15,5 @@ class LinearInterpolation
         LinearInterpolation();
         ~LinearInterpolation();
         
-        float process(const float* buffer, const float inIndex) noexcept;
+        float process(const float* buffer, const float inIndex, const int buffersize) noexcept;
 };

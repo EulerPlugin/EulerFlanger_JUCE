@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <juce_audio_processors/juce_audio_processors.h>
 #include <vector>
+#include <EulerFlanger/LinearInterpolation.h>
 
 class CircularBuffer
 {
@@ -24,6 +25,10 @@ class CircularBuffer
         
     private:
         std::vector<float> circular_buffer;
+        
+        int buffer_size;
         int writeIndex;
         int warping;
+        
+        LinearInterpolation LI;
 };
